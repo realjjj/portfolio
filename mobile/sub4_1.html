@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>표본보기 - 상설전시표본</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+	<link rel="apple-touch-icon-precomposed" href="./app_icon.png">
+    <link rel="apple-touch-startup-image" href="./startup.png">
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/sub4_1.css">
+	<script src="./js/prefixfree.min.js"></script>
+	<script src="https://kit.fontawesome.com/5e3c8f85ca.js" crossorigin="anonymous"></script>
+	<script src="./js/sub4_1.js"></script>
+	<script src="./js/modal.js"></script>
+	<script>
+        // <![CDATA[
+        try {
+			window.addEventListener('load', function(){
+				setTimeout(scrollTo, 0, 0, 1); 
+			}, false);
+        } 
+        catch(e) {}
+        // ]]>
+    </script>
+</head>
+<body>
+	<div id="wrap">
+		<!-- header -->
+		<header id="headerArea">
+			<h1><a href="./index.html">이화여대자연사박물관</a></h1>
+			<a href="#" class="menu_ham">
+				<span>메뉴열기</span>
+			</a>
+			<div class="modal"></div>
+			<nav id="gnb">
+				<h2 class="hidden">글로벌네비게이션영역</h2>
+				<ul>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+				</ul>
+				<div>
+					<p>QUICK MENU</p>
+					<ul>
+						<li>
+							<dl>
+								<dt>박물관소개</dt>
+								<dd>
+									<a href="./sub1_1.html">
+										<i class="fa-regular fa-circle-question"></i>
+										소개
+									</a>
+								</dd>
+								<dd>
+									<a href="./sub1_2.html">
+										<i class="fa-regular fa-calendar-plus"></i>
+										연혁
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>관람정보</dt>
+								<dd>
+									<a href="./sub2_1.html">
+										<i class="fa-solid fa-person-circle-exclamation"></i>
+										관람안내
+									</a>
+								</dd>
+								<!-- <dd>
+									<a href="./sub2_2.html">
+										<i class="fa-solid fa-user-group"></i>
+										<span>단체관람예약&안내</span>
+									</a>
+								</dd> -->
+								<dd>
+									<a href="./sub2_2.html">
+										<i class="fa-regular fa-map"></i>
+										찾아오시는 길
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>전시정보</dt>
+								<dd>
+									<a href="./sub3_1.html">
+										<i class="fa-regular fa-images"></i>
+										기획전시
+									</a>
+								</dd>
+								<dd>
+									<a href="./sub3_2.html">
+										<i class="fa-regular fa-image"></i>
+										상설전시
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>표본보기</dt>
+								<dd>
+									<a href="./sub4_1.html">
+										<i class="fa-solid fa-fish-fins"></i>
+										상설전시 표본
+									</a>
+								</dd>
+								<dd>
+									<a href="./sub4_2.html">
+										<i class="fa-solid fa-magnifying-glass-arrow-right"></i>
+										표본 외부검색
+									</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<p>SNS</p>
+					<ul>
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-square-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="./images/sns_blog.png" alt="" height="42">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-youtube"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!-- 본문 -->
+		<div class="sub_main">
+			<!-- 비주얼 -->
+			<div class="visual">
+				<img src="./images/sub/sub4_vis.jpg" alt="">
+				<p>Specimen Search<span>상설전시 표본</span></p>
+				<div>
+					<ul>
+						<li><a href="./sub4_1.html" class="current">상설전시 표본</a></li>
+						<li><a href="./sub4_2.html">표본 외부검색</a></li>
+					</ul>
+					<span></span>
+				</div>
+			</div>
+
+			<!-- body -->
+			<article id="content">
+				<h2 class="hidden">본문콘텐츠영역</h2>
+				<p class="summary">
+					우리 박물관이 소유한 표본을<br>
+					미리 만나볼 수 있습니다.
+				</p>
+
+				<!-- 모달 -->
+				<div class="body_modal">
+					<div class="body_modal_inner">
+						<div class="modal_header">
+							<a href="#" class="close_modal">
+								<span class="hidden">닫기</span>
+								<i class="fa-solid fa-arrow-left"></i>
+							</a>
+							<p>상설표본</p>
+						</div>
+						<div class="modal_content">
+							<!-- ajax -->
+						</div>
+					</div>
+				</div>
+
+				<ul class="total_form">
+					<li>총 <span class="total_count">0</span>건</li>
+					<li>
+						<ul>
+							<li>
+								<a id="byNumber" href="#" class="current">소장품번호순</a>
+							</li>
+							<li>
+								<a id="byTitle" href="#">가나다순</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div class="search_form">
+					<form action="" method="get">
+						<input id="keyword" type="text" placeholder="검색어를 입력해주세요.">
+						<button id="goSearch" type="submit">검색</button>
+					</form>
+					<div>※표본 이름, 번호, 종류로 검색하실 수 있습니다.</div>
+				</div>
+				<ul class="modal_click_area">
+					<!-- ajax -->
+				</ul>
+			</article>
+
+			<!-- footer -->
+			<footer id="footerArea">
+				<p>대표번호<a href="tel:02-3277-4700"><strong>02. 3277. 4700</strong></a></p>
+				<div class="family">
+					<a class="arrow" href="#">관련 사이트 바로가기 +</a>
+					<ul class="aList">
+						<li><a href="https://www.ewha.ac.kr/ewha/index.do" target="_blank" title="사이트 새창에 열림">이화여자대학교</a></li>
+						<li><a href="https://cms.ewha.ac.kr/user/indexMain.action?siteId=rieco" target="_blank" title="사이트 새창에 열림">에코과학연구소</a></li>
+						<li><a href="https://www.science.go.kr/exhibition2023/index.html" target="_blank" title="사이트 새창에 열림">온라인공동특별전</a></li>
+					</ul>
+				</div>
+				<div class="doc_area">
+					<a href="#">이용약관</a>
+					<span></span>
+					<a href="#">개인정보처리방침</a>
+					<span></span>
+					<a href="#">이메일무단수집거부</a>
+				</div>
+				<div class="addr_area">
+					<p>
+						서울특별시 서대문구 이화여대길 52
+					</p>
+					<p>
+						(우 : 03760 이화여자대학교 자연사박물관)
+					</p>
+					<p>
+						Fax : 02. 3277. 2566
+					</p>
+					<p>
+						E-mail : nhm@ewha.ac.kr
+					</p>
+					<p>
+						COPYRIGHT 2024 BY EWHA NATURAL HISTORY MUSEUM. ALL RIGHT RESERVED.
+					</p>
+				</div>
+			</footer>
+			<a href="#" id="top" class="top_off">
+				<span>Top</span>
+			</a>
+		</div>
+	</div>
+	<script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="./js/common.js"></script>
+	<script src="./js/gnb.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+#content{font-size: 1.15rem;}
+#content .map_api #map{width: 100%; height: 60vh; border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;}
+#content .info{padding: 20px; padding-bottom: 0; text-align: justify;}
+
+#content .addr_area{background: #efefef; border-radius: 10px;
+	margin-bottom: 30px; font-size: 1.15rem; font-weight: 600;
+	padding: 20px; text-align: center;}
+/* #content .addr_area{width: 100%; font-size: 1.5rem; background: #eee;
+	padding: 20px 50px; border-radius: 100px; display: flex; justify-content: space-between;
+	margin: 50px 0; align-items: center;}
+#content .addr_area p:nth-of-type(1){font-family: "Roboto", sans-serif; font-weight: 600;
+	color: #11a691;}
+#content .addr_area p strong{margin-right: 30px;} */
+
+#content .info>ul{border-top: 3px solid #11a691; border-bottom: 3px solid #11a691;}
+#content .info>ul>li{padding: 50px 0; border-bottom: 1px solid #ccc;}
+#content .info>ul>li:last-child{border: none;}
+#content .info>ul>li>div:nth-of-type(1){display: flex; align-items: center;
+	margin-bottom: 20px;}
+#content .info>ul>li>div:nth-of-type(1) i{font-size: 2rem;
+	width: 50px; height: 50px; background: #eee; border-radius: 50px; text-align: center;
+	line-height: 50px; margin-right: 10px;}
+#content .info>ul>li>div:nth-of-type(1) div{font-size: 1.2rem; color: #11a691; font-weight: 700;}
+/* #content .info>ul>li div:nth-of-type(2){font-weight: 600; color: #11a691;} */
+#content .info>ul>li ul{list-style: disc;}
+#content .info>ul>li li{margin-bottom: 30px;}
+#content .info>ul>li li:last-child{margin-bottom: 0;}
+#content .info>ul>li dt{margin-bottom: 10px; font-weight: 700; color: #111;}
+#content .info>ul>li dd{line-height: 2rem;}
+#content .info>ul>li:nth-of-type(3) li:last-child dl{margin-bottom: 20px;}
+#content .info>ul>li:nth-of-type(3) li:last-child p{line-height: 2rem;}
+#content .info>ul>li ol li{margin-bottom: 0; line-height: 2rem;
+	list-style: decimal; list-style-position: inside;}
+#content .info>ul>li:nth-of-type(2) dt, #content .info>ul>li:nth-of-type(3) dt{
+	position: relative; padding-left: 10px;
+}
+#content .info>ul>li:nth-of-type(2) dt::before, 
+#content .info>ul>li:nth-of-type(3) dt::before{
+	content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    background: #333;
+    border-radius: 10px;
+}
+
+/* #content .info>ul>li:nth-of-type(2) li, #content .info>ul>li:nth-of-type(3) li{
+	list-style: disc; list-style-position: inside;}
+#content .info>ul>li:nth-of-type(2) li::marker{} */

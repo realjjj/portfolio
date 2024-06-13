@@ -1,0 +1,9 @@
+#content li{overflow: hidden; margin-top: 80px;}
+#content li:first-child{margin-top: 0;}
+#content li img{width: calc(100% - 20px); border-radius: 0 10px 10px 0;}
+#content li:nth-of-type(2n) img{float: right; border-radius: 10px 0 0 10px;}
+#content li dl{padding: 20px; clear: both;}
+#content li dt{font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; color: #111;}
+#content li dd{font-size: 1.15rem;}
+#content li dd p{margin-bottom: 20px; text-align: justify;}
+#content li dd p:last-of-type{margin-bottom: 0;}

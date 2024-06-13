@@ -1,0 +1,8 @@
+#content ul{font-size: 1.15rem;}
+#content li>p:nth-of-type(1){font-size: 1.5rem; font-weight: 700; color: #111;
+	margin-bottom: 20px;}
+#content li{margin-bottom: 80px; text-align: justify;}
+#content dl{margin-top: 20px;}
+#content dl dt{font-weight: 600; color: #11a691;}
+#content p, #content dl{padding: 0 20px;}
+#content img{width: 100%; margin-bottom: 20px;}

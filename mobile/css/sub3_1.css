@@ -1,0 +1,32 @@
+#content .body{position: relative; padding: 0 20px; overflow: hidden;}
+#content section{margin-top: 65px; font-size: 1.15rem;}
+#content h3{position: absolute; top: 0; left: 50%; font-size: 1.15rem; width: 50%;}
+#content h3 a{padding: 10px 20px; text-align: center; font-weight: 700;}
+#content h3 a.current{color: #fff; background: #11a691; border-radius: 5px 5px 0 0;}
+#content h3:nth-of-type(1){transform: translateX(-100%); padding-left: 20px;}
+#content h3:nth-of-type(2){padding-right: 20px;}
+#content section img{margin-bottom: 10px; border-top: 2px solid #111; border-bottom: 2px solid #111;}
+
+/* sub3의 모달 */
+#content .modal_content img{}
+#content .modal_content>div{padding: 20px;}
+#content .modal_section>p:nth-of-type(1){font-size: 1.5rem; font-weight: 700; color: #111;
+	padding: 15px 0; border-bottom: 2px solid #111; border-top: 2px solid #111;
+	margin-bottom: 20px;}
+#content .modal_section:not(:last-child){margin-bottom: 50px;}
+#content .modal_section li{display: flex; margin-bottom: 20px;}
+#content .modal_section li strong{flex: none; width: 150px;}
+#content .modal_section div p:not(:last-of-type){margin-bottom: 20px;}
+
+/* 현재전시 */
+#content section li:not(:last-child){margin-bottom: 50px;}
+#content section li p{margin-bottom: 5px;}
+#content section li p:nth-of-type(1){font-size: 2rem; font-weight: 700; color: #111;
+	line-height: 2rem;}
+#content section li p:nth-of-type(2){font-size: 1.5rem; color: #111;
+	font-weight: 500;}
+#content section li p:nth-of-type(3){font-size: 1rem; color: #fff;
+	background: #111; display: inline-block; padding: 2px 8px;}
+
+/* 지난전시 */
+/* #content section:nth-of-type(2){} */
