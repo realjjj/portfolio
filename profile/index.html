@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>profile</title>
+	<link rel="stylesheet" href="./css/jquery.fullPage.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<script src="https://kit.fontawesome.com/56f415dbb0.js" crossorigin="anonymous"></script>
+	<script src="./js/style.js"></script>
+</head>
+<body>
+	<!-- content start -->
+	<div class="wrap">
+		<!-- header start -->
+		<header>
+			<h1 class="hidden">프로필 사이트</h1>
+			<nav>
+				<h2 class="hidden">글로벌 네비게이션</h2>
+				<ul id="menu">
+					<li data-menuanchor="firstPage" class="active">
+						<h3><a href="#firstPage">Intro</a></h3>
+					</li>
+					<li data-menuanchor="secondPage">
+						<h3><a href="#secondPage">Profile</a></h3>
+					</li>
+					<li data-menuanchor="3rdPage">
+						<h3><a href="#3rdPage">Web</a></h3>
+					</li>
+					<li data-menuanchor="4thpage">
+						<h3><a href="#4thpage">Mobile</a></h3>
+					</li>
+					<li data-menuanchor="lastPage">
+						<h3><a href="#lastPage">Responsive</a></h3>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- header end -->
+		<!-- body start -->
+		<article id="content">
+			<h1 class="hidden">본문 영역</h1>
+			<div id="fullpage">
+				<div class="section" id="section0">
+					<p class="title">SELECT YOUR PLAYER!</p>
+					<ul class="character_list">
+						<li>
+							<div class="character_all">
+								<div class="speech_bubble">
+									<div class="speech_border"></div>
+									<div class="speech_content">Unix¿î¿µÃ¼Á</div>
+								</div>
+								<img src="./images/character_silhouette.png" alt="">
+								<p class="star">★★★</p>
+								<p class="player_name">?????</p>
+							</div>
+						</li>
+						<li class="current">
+							<div class="character_all">
+								<div class="speech_bubble">
+									<div class="speech_border"></div>
+									<div class="speech_content">
+										<p>나는 새싹!</p>
+										<p>쑥쑥 자라서 팀이라는 숲속의</p>
+										<p>튼튼한 나무가 될거야!!!</p>
+										<p>나를 키워보겠어?</p>
+									</div>
+								</div>
+								<img src="./images/intro_character.gif" alt="">
+								<p class="star">★★★★★</p>
+								<p class="player_name">박예진</p>
+							</div>
+						</li>
+						<li>
+							<div class="character_all">
+								<div class="speech_bubble">
+									<div class="speech_border"></div>
+									<div class="speech_content">ÇÏ±â</div>
+								</div>
+								<img src="./images/character_silhouette.png" alt="">
+								<p class="star">★★★★</p>
+								<p class="player_name">???</p>
+							</div>
+						</li>
+					</ul>
+					<ul class="button_list">
+						<li><a href="#" class="left"><i class="fa-solid fa-chevron-left"></i></a></li>
+						<li><a href="#" class="choose">선택하기</a></li>
+						<li><a href="#" class="right"><i class="fa-solid fa-chevron-right"></i></a></li>
+					</ul>
+				</div>
+				<div class="section" id="section1">
+					dfgdfgfdgdfgdfg
+				</div>
+				<div class="section" id="section2">
+				   dfgdfgdfgdfgdfg
+				</div>
+				<div class="section" id="section3">
+					dfgdfgdfgdfgdfg
+				</div>
+				<div class="section" id="section4">
+					dfgdfgdfgdfgdfg
+				</div>
+			</div>
+		</article>
+		<!-- body end -->
+	</div>
+	<!-- content end -->
+
+	<!-- script -->
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/jquery.fullPage.min.js"></script>
+	<script>
+		$('#fullpage').fullpage({
+			// sectionsColor: ['#f00', '#0f0', '#7BAABE', 'whitesmoke', '#ccddff'],
+			anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+			menu: '#menu',
+			navigation: true,
+			verticalCentered: false,
+		});
+	</script>
+</body>
+</html>

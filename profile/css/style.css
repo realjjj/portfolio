@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* font-family: "Noto Sans KR", sans-serif; */
+@import url('https://fastly.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+/* font-family: "Galmuri9", sans-serif; */
+
+/* animation */
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+@keyframes bubbleUpDown {
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-5px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+@keyframes arrowUpDown{
+	0%{
+		top: -40px;
+	}
+	50%{
+		top: -55px;
+	}
+	100%{
+		top: -40px;
+	}
+}
+
+/* var */
+:root{
+	--bubble_shadow: #C1E5FF;
+}
+
+/* reset css */
+*{
+	margin: 0; padding: 0; border: 0;
+}
+html, body{
+	font-size: 16px;
+}
+a{
+	display: block; text-decoration: none; color: #333;
+}
+ul, ol{
+	list-style: none
+}
+img{
+	vertical-align: top;
+}
+
+/* common class */
+.hidden{
+	display: block; width: 1px; height: 1px; position: absolute; top: 0;
+	left: -1000%; overflow: hidden;
+}
+
+/* custom css */
+body{
+	color: #333; font-family: "Galmuri9", sans-serif;
+}
+nav h3{
+	font-size: 1rem;
+}
+#menu{
+	position: fixed; top: 0; left: 0; height: 40px; z-index: 100; width: 100%;
+}
+#menu li{
+	display: inline-block; margin: 10px; background: rgba(255,255,255, 0.5);
+	border-radius: 10px;
+}
+#menu li.active{
+	background: rgba(0,0,0, 0.5);
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu li a{
+	color: #000; padding: 9px 18px; font-family: "Noto Sans KR", sans-serif;
+}
+#content .section{
+	box-sizing: border-box; padding: 50px; height: 100vh;
+}
+
+/* section1 */
+#content #section0{
+	background: linear-gradient(0deg, rgba(92,0,255,1) 0%, rgba(0,157,255,1) 100%);
+}
+#content #section0 .title{
+	font-family: "Galmuri7", sans-serif; font-weight: 800; font-size: 4rem;
+	color: #fff; filter: drop-shadow(1px 1px 0 #5b02ff) drop-shadow(2px 2px 0 #5b02ff)
+		drop-shadow(3px 3px 0 #5b02ff) drop-shadow(4px 4px 0 #5b02ff);
+	width: fit-content; margin: 0 auto;
+}
+#content .star{
+	color: #FFCA05; font-size: 2rem; margin-bottom: 10px;
+}
+#content .player_name{
+	color: #000; font-size: 1.3rem; font-weight: 900;
+}
+#content .speech_bubble{
+	width: fit-content; box-sizing: border-box; padding: 6px;
+	position: relative; margin-bottom: 40px;
+	animation: bubbleUpDown .5s ease-in-out infinite;
+}
+#content .speech_bubble::after{
+	content: ''; display: block; position: absolute; top: 100%; left: 50%;
+	transform: translateX(-50%);
+	border-bottom: 29px solid transparent; border-left: 13px solid transparent;
+	border-right: 13px solid transparent; border-top: 29px solid #000;
+}
+#content .speech_bubble .speech_border{
+	position: absolute; top: 0; left: 0; z-index: 10;
+	width: 100%; height: 100%;
+	border-image-source: url(../images/border_image.svg);
+	border-image-width: 14px;
+    border-image-slice: 48;
+}
+#content .speech_bubble .speech_content{
+	width: 100%; height: 100%; background: #fff; position: relative;
+	box-shadow: 15px -15px 0 var(--bubble_shadow) inset; box-sizing: border-box;
+	font-family: "Galmuri9", sans-serif; font-size: 1.2rem; font-weight: 900;
+	display: flex; flex-direction: column; justify-content: center;
+	border-radius: 10px; padding: 30px 50px;
+}
+#content .speech_bubble .speech_content::before{
+	content: ''; display: block; position: absolute; bottom: 15px; left: 15px;
+	width: 10px; height: 10px; background: var(--bubble_shadow);
+}
+#content .speech_bubble .speech_content::after{
+	content: ''; display: block; position: absolute; top: 99%; left: 50%;
+	transform: translateX(-50%); z-index: 20;
+	border-bottom: 25px solid transparent; border-left: 10px solid transparent;
+	border-right: 10px solid transparent; border-top: 25px solid var(--bubble_shadow);
+}
+#content .character_list{
+	width: 100%; margin: 50px auto; display: flex; 
+	justify-content: center; align-items: center; gap: 20px;
+}
+#content .character_list li{
+	width: 440px; height: 560px; background: rgba(0,0,0,.4);
+	border: 6px solid rgba(0,0,0,.5);
+}
+#content .character_list li.current{
+	background: rgba(255,255,255, 0.3); position: relative;
+	border: 6px solid #FFCA05;
+}
+#content .character_list li.current::before{
+	content: '▼';
+	position: absolute; top: -40px; left: 50%; transform: translateX(-50%);
+	z-index: 30; font-weight: 900; color: #FFCA05; font-size: 3.3rem;
+	filter: drop-shadow(1px 1px 0 #5b02ff) drop-shadow(2px 2px 0 #5b02ff)
+		drop-shadow(3px 3px 0 #5b02ff) drop-shadow(4px 4px 0 #5b02ff);
+	animation: arrowUpDown .6s ease-in-out infinite;
+}
+#content .character_list li.current img{
+	filter: 
+		drop-shadow(1px 1px 0 #000) drop-shadow(-1px -1px 0 #000)
+		drop-shadow(-1px 1px 0 #000) drop-shadow(1px -1px 0 #000);
+}
+#content .character_list li:nth-of-type(2) .speech_bubble{
+	width: 366px; margin-bottom: 20px;
+}
+#content .character_list .character_all{
+	height: 100%; display: flex; flex-direction: column; 
+	justify-content: end; align-items: center; padding-bottom: 80px;
+	box-sizing: border-box;
+}
+#content .character_list li:not(:nth-of-type(2)) img{
+	height: 100px; filter: drop-shadow(3px 0 0 #555); margin-bottom: 15px;
+}
+#content .character_list li:not(:nth-of-type(2)) .speech_border{
+	border-image-slice: 24;
+}
+#content .button_list{
+	display: flex; justify-content: center; gap: 10px;
+}
+#content .button_list li{
+	position: relative; width: 204px; height: 84px;
+}
+#content .button_list li:not(:nth-of-type(2)){
+	width: 84px;
+}
+#content .button_list li::before{
+	content: ''; display: block; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%; background: #000; border-radius: 8px;
+	/* z-index: -1; */
+}
+#content .button_list a{
+	position: absolute; top: 0; left: 0; transform: translateY(-8px);
+	color: #fff; font-size: 1.6rem; 
+	border-radius: 8px; 
+	border: 2px solid #000; display: flex; justify-content: center; align-items: center;
+	transition: .1s ease-out; font-family: "Noto Sans KR", sans-serif;
+}
+#content .button_list a.on{
+	transform: translateY(-2px);
+}
+#content .button_list li:nth-child(2) a{
+	width: 200px; height: 80px; background: orange; color: #000;
+	font-weight: 600;
+}
+#content .button_list li:not(:nth-child(2)) a{
+	width: 80px; height: 80px; text-align: center; background: green;
+}
