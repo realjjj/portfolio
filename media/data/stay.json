@@ -1,0 +1,69 @@
+{
+	"data": [
+		{
+			"index": 1,
+			"type": "Cottages",
+			"name": "Aapishovi chalet",
+			"images": [
+				"./images/main/stay/01.jpg"
+			]
+			
+		},
+		{
+			"index": 2,
+			"type": "Cottages",
+			"name": "Ahosen Lomamökit",
+			"images": [
+				"./images/main/stay/02.jpg"
+			]
+		},
+		{
+			"index": 3,
+			"type": "Cottages",
+			"name": "AINOLA",
+			"images": [
+				"./images/main/stay/03.jpg"
+			]
+		},
+		{
+			"index": 4,
+			"type": "Holiday villages",
+			"name": "Apukka Resort Rovaniemi, Lapland, Finland",
+			"images": [
+				"./images/main/stay/04.jpg"
+			]
+		},
+		{
+			"index": 5,
+			"type": "Hotels",
+			"name": "Arctic City Hotel",
+			"images": [
+				"./images/main/stay/05.jpg"
+			]
+		},
+		{
+			"index": 6,
+			"type": "Accommodation outside Rovaniemi",
+			"name": "Arctic Hilltop Boutique Hotel Iso-Syöte",
+			"images": [
+				"./images/main/stay/06.jpg"
+			]
+		},
+		{
+			"index": 7,
+			"type": "Hotels",
+			"name": "Arctic TreeHouse Hotel",
+			"images": [
+				"./images/main/stay/07.jpg"
+			]
+		},
+		{
+			"index": 8,
+			"type": "Cottages",
+			"name": "Aurora Cottage Otsola",
+			"images": [
+				"./images/main/stay/08.jpg"
+			]
+		}
+	]
+}

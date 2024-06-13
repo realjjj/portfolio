@@ -1,0 +1,88 @@
+{
+	"data": [
+		{
+			"index": 0,
+			"q": "What are the weather and temperatures like in Rovaniemi in winter/spring/summer/autumn?",
+			"a": [
+				"Annual temperatures in Rovaniemi vary between as cold as -30 degrees Celsius in the winter to +25 degrees Celsius in the summer. There are stark contrasts between seasons this far north, and each of them have their own characteristics. Please read more on our seasons page.",
+				"If you're wandering for the best time for you to travel to Rovaniemi, please get to know our seasons and find more information here."
+			]
+		},
+		{
+			"index": 1,
+			"q": "How do I get to Rovaniemi?",
+			"a": [
+				"Rovaniemi has excellent travel connections, please see our Getting here page. You can reach Rovaniemi by taking a flight, a train or a bus connection. One option is also to drive with your own or rental car."
+			]
+		},
+		{
+			"index": 2,
+			"q": "How do I get from the airport to Rovaniemi city centre and vice versa?",
+			"a": [
+				"During winter season you can get from the airport to the city and from the city to the airport by Santa Claus Bus or Airport Taxi.",
+				"Otherwise taxi is the only option, please see more here."
+			]
+		},
+		{
+			"index": 3,
+			"q": "When and where can I see the Northern Lights?",
+			"a": [
+				"The Northern Lights can be seen in Rovaniemi from late August until early April on clear, dark, cloudless nights away from city lights.",
+				"For information on the phenomenon, viewing spots, activities and more, please see our Northern Lights page."
+			]
+		},
+		{
+			"index": 4,
+			"q": "When and where can I see the Midnight Sun?",
+			"a": [
+				"The Midnight Sun period in Rovaniemi officially lasts from early June until early July. However, nights are white and there’s light around the clock from the end of May until early August.",
+				"For information on the phenomenon, viewing spots, activities and more, please see our Midnight Sun page."
+			]
+		},
+		{
+			"index": 5,
+			"q": "What kind of clothes will I need and where can I rent them?",
+			"a": [
+				"The best way to prepare for the cold frost is to dress in warm layers: warm undergarments (long-sleeved and long-legged thermals), warm garments under your coat (e.g. wool or fleece) and external garments made of close-woven fabrics.",
+				"As for footwear, bring socks, woollen socks and lined, thick-soled shoes. Your shoes should be big enough to leave room for wiggling your toes. Wear woollen or other warm headgear that protects your ears, cheeks and neck. For you hands, you will need over-gloves and under-gloves or mittens (cotton, wool, fleece, quilted fabric).",
+				"Many activity companies rent out winter clothing including thermal overalls and footwear, woollen socks, warm hats, balaclavas, mittens and scarves.",
+				"More information about equipment and clothing rental here."
+			]
+		},
+		{
+			"index": 6,
+			"q": "Is there luggage storage in Rovaniemi?",
+			"a": [
+				"Please find a list of luggage storage facilities in the city centre and in the Santa Claus Village here."
+			]
+		},
+		{
+			"index": 7,
+			"q": "What kind of activities and excursions does Rovaniemi offer in winter?",
+			"a": [
+				"Among the most popular winter activities are reindeer sleigh rides, husky tours, snowmobile safaris, Northern Lights tours, as well as cross-country skiing, snowshoeing and ice fishing trips. See all winter activities here.",
+				"Please note! Snow-related activities are usually available from late November/early December to early April. Although first snow often falls in October, the permanent snow cover is usually in place by December, allowing winter activities to take place. By mid-April, the sun is already warm enough to begin softening and melting the snow.",
+				"However, even if there isn't enough snow in early winter for the snow activities, we still offer plenty of other experiences: visits to reindeer and husky farms, nature trips, Northern Lights tours and sauna programmes."
+			]
+		},
+		{
+			"index": 8,
+			"q": "What kind of activities and excursions does Rovaniemi offer in spring, summer and autumn?",
+			"a": [
+				"Spring (late April - May): Among the most popular are visits to reindeer & husky farms and nature trips. See all spring activities here.",
+				"Summer (June - August): Among the most popular are Midnight Sun tours, riverboat cruises, visits to reindeer and husky farms, nature trips (hiking, fishing and canoeing), moose watching and sauna programmes. See all summer activities here.",
+				"Autumn (September - November): Among the most popular are Northern Lights tours, visits to reindeer and husky farms, husky carriage rides, nature trips (hiking, fishing and canoeing) and sauna programmes. See all summer activities here."
+			]
+		},
+		{
+			"index": 9,
+			"q": "How can I book an activity tour?",
+			"a": [
+				"You can book tours and safaris online on Visit Rovaniemi webpage www.visitrovaniemi.fi/see-do/activities/ or directly from the activity companies.",
+				"To guarantee the availability of the desired activities, we'd recommend to pre-book well beforehand.",
+				"You can also book activities after your arrival in Rovaniemi Tourist Information (Koskikatu 12) or directly from the activity companies.",
+				"Solo traveller! Many excursions are operated with a minimum of two full-paying customers, but single travellers are most welcome to join if a tour already has enough participants. Kindly check the availability from Rovaniemi Tourist Information (on spot) or from the company providing the tour."
+			]
+		}
+	]
+}

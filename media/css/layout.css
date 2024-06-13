@@ -1,0 +1,622 @@
+/* 와이드 pc  */
+#snowObj{width: 120px; height: 120px; transition: .5s ease-out;
+	position: fixed; top: 200px; right: 100px; opacity: 0; z-index: 10;
+
+	& img{
+		filter: drop-shadow(0 0 5px rgba(0,148,255,.3));
+	}
+}
+
+#snowObj.on{opacity: 1;}
+
+#content{width:100%; margin:0;}
+#content section{padding: 100px 0;}
+#content .inner{position: relative; z-index: 20;}
+#content h3{font-size: 5.5rem; color: #f5f5f5; text-align: center;
+	font-family: "Anybody", sans-serif; font-style: italic; margin-bottom: 50px;}
+#content .more_button{color: #fff; font-size: 1.3rem; font-weight: 500; width: 250px;
+	padding: 20px 0; border-bottom: 2px solid #E3000F; margin: 50px auto 0 auto;
+	text-align: center; transition: all .1s ease-out;
+
+	&:hover{border-bottom: 2px solid #fff; color: #E3000F;}
+}
+
+/* 와이드 - about */
+#content section:nth-of-type(1){
+	background: #111;
+
+	& ul{
+		display: flex; height: 800px;
+
+		& li{
+			width: 20%; height: 100%; background: #000; position: relative; overflow: hidden;
+
+			&:nth-of-type(1){
+				background: #E3000F;
+				
+				& p{
+					&:nth-of-type(1){
+						font-size: 5.5rem; font-weight: 700; color: #fff;
+						font-family: "Anybody", sans-serif; font-style: italic;
+						position: absolute; top: 30px; right: 120px;
+						transform-origin: 100% 0; transform: rotateZ(-90deg);
+						line-height: 5.5rem;
+					}
+					&:nth-of-type(2){
+						position: absolute; bottom: 30px; right: 30px;
+						color: #fff; font-size: 1.35rem; text-align: right; font-weight: 300;
+						
+						& span{
+							display: block;
+						}
+					}
+				}
+			}
+
+			& div{width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
+
+			&:nth-of-type(2){& div{background: url(../images/main/about/01.jpg) center no-repeat;}}
+			&:nth-of-type(3){& div{background: url(../images/main/about/02.jpg) center no-repeat;}}
+			&:nth-of-type(4){& div{background: url(../images/main/about/03.jpg) center no-repeat;}}
+			&:nth-of-type(5){& div{background: url(../images/main/about/04.jpg) center no-repeat;}}
+
+			& dl{background: rgba(255,255,255,0); padding: 30px 20px;
+				position: absolute; left: 0; bottom: 87px; transform: translateY(100%);
+				transition: 0.35s ease-out;
+
+				& dt{font-size: 1.75rem; font-weight: 700; margin-bottom: 30px; color: #fff;}
+			}
+
+			&:hover{
+				& dl{
+					background: rgba(255,255,255,1); transform: translateY(0); bottom: 0;
+					
+					& dt{
+						color: #333;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 와이드 - stay */
+#content section:nth-of-type(2){
+	padding: 100px 65px; background:rgba(0,0,0,.8);
+
+	& .stay_info{
+		display: flex; color: #fff; margin-bottom: 50px; padding: 0 5px;
+
+		& img{width: 50%; object-fit: cover; object-position: center;}
+		& dl{width: 50%; padding: 30px;
+			& dt{font-size: 2.8rem; font-family: "Anybody", sans-serif; font-style: italic;
+				font-weight: 700; margin-bottom: 20px;
+				& p{line-height: 2.8rem;}
+			}
+			& dd{font-weight: 300;}
+		}
+	}
+
+	& .masonry{
+		& .grid-item, .grid-sizer{
+			width: 25%; padding: 5px; box-sizing: border-box;
+
+			& div{
+				background: #fff; position: relative;
+
+				& p{
+					&:nth-of-type(1){
+						background: #E3000F; color: #fff; font-weight: 500; font-size: 0.9rem;
+						display: inline-block; position: absolute; top: 20px; left: 0;
+						padding: 8px 20px;
+					}
+					&:nth-of-type(2){
+						font-size: 1.35rem; font-weight: 700; padding: 20px; line-height: 1.5rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 와이드 - season */
+#content section:nth-of-type(3){
+	background: #fff;
+
+	& h3{color: #333;}
+
+	& .track{
+		position: relative; left: 50%; transform: translateX(-50%);
+
+		&:nth-of-type(1){width: 2490px;}
+		&:nth-of-type(2){width: 2130px;}
+
+		& .train{display: flex; transition: all .2s ease-out; position: relative;
+			width: auto; height: 450px;}
+
+		& ul{display: flex; position: absolute; top: 0; left: 0;
+			
+			& li{
+				flex: none; width: 330px; height: 420px; margin: 15px; background: #ccc;
+				position: relative;
+
+				& div{position: absolute; left: 0; bottom: 0; 
+					background: linear-gradient(0deg, rgba(0,0,0,.4) 60%, rgba(0,0,0,0) 100%);
+					padding: 20px; width: 100%; box-sizing: border-box;
+
+					& p{
+						color: #fff;
+
+						&:nth-of-type(1){font-size: .9rem; font-weight: 300;}
+						&:nth-of-type(2){font-size: 1.35rem; font-weight: 600;}
+					}
+				}
+			}
+		}
+
+		& .fixed_item{width: 330px; height: 420px; position: absolute; z-index: 10;
+			background: #E3000F; color: #fff; font-size: 2.2rem;
+			font-family: "Anybody", sans-serif; font-style: italic;
+			font-weight: 700; top: 15px; display: flex; justify-content: center;
+			align-items: center;
+		}
+
+		&:nth-of-type(1){
+			& .fixed_item{left: 1095px; background: #fff; color: #E3000F;
+				border: 10px solid #E3000F; box-sizing: border-box;}
+		}
+		&:nth-of-type(2){
+			& .fixed_item{left: 1095px;}
+		}
+	}
+
+}
+
+/* 와이드 - faq */
+#content section:nth-of-type(4){
+	padding: 0;
+
+	& h3{margin-bottom: 200px; padding: 100px 0 50px 0; background: #04131A;}
+
+	& .faq_area{
+		background: #04131A; padding-bottom: 100px;
+
+		& .faq_content{display: flex; justify-content: space-between;}
+
+		& .show_a{flex: none; margin-left: 65px; padding: 50px 0; box-sizing: border-box;
+
+			& dl{display: flex; flex-direction: column; height: 100%; background: #fff;
+				padding: 30px; width: 500px; height: 450px; box-sizing: border-box;}
+		
+			& dt{font-size: 1.35rem; font-weight: 600; padding-bottom: 20px; margin-bottom: 20px;
+				border-bottom: 1px solid #111; color: #111;}
+			& dd{overflow-y: scroll; flex: 1;}
+		}
+
+		& .swiper-container{height: 450px; padding: 50px 20px;}
+
+		& .swiper-wrapper{transform: translate3d(0, 0, 0); height: 100%;}
+
+		& .swiper-slide{
+			width: 300px; height: 100%;
+			color: #f5f5f5; font-size: 1.35rem;
+			text-align: center; word-wrap: break-word; position: relative; 
+			perspective: 600px;
+
+			& .slide_cube{
+				width: 100%; height: 100%;
+				transition: .2s ease-in-out;
+				transform-style: preserve-3d;
+
+				& .slide_cube_face{position: absolute; width: 100%; height: 100%;
+				
+					& p{position: relative; z-index: 1; width: 100%; height: 100%;
+						display: flex; justify-content: center; align-items: center;
+					
+						& span{width: 260px; padding: 20px; box-sizing: border-box;}
+					}
+					& p.a_box{display: none;}
+				}
+
+				& .slide_cube_front{
+					background: #1e2b31;
+					transform: rotateY(0) translateZ(0);
+				}
+
+				& .slide_cube_right{background: #ccc;
+					transform: rotateY(90deg) translateZ(150px) translateX(150px);
+					position: relative;
+
+					& img{position: absolute; top: 0; left: 0; height: 100%;}
+
+					& p span{background: rgba(0,0,0,.3); border: 2px solid rgba(255,255,255,.5);}
+				}
+			}
+
+			& a{color: #fff; width: 100%; height: 100%; position: absolute; top: 0; left: 0;
+				z-index: 10;}
+
+			&.current{
+				& .slide_cube{
+					transform: rotateY(-90deg) translateX(-150px) translateZ(150px);
+				}
+			}
+
+			&:hover{
+				& .slide_cube{
+					transform: rotateY(-90deg) translateX(-150px) translateZ(150px);
+				}
+			}
+		}
+
+		& .more_button{margin-top: 0;}
+	}
+}
+
+/* 와이드 - gallery */
+#content section:nth-of-type(5){
+	background: #000;
+
+	& .gallery_area{
+		max-width: 1250px; max-height: 1000px; margin: 0 auto;
+		display: grid; justify-content: center;
+		grid-template-columns: repeat(5, 1fr);
+		/* grid-auto-rows: minmax(1fr, 250px); */
+		grid-template-areas:
+			'a a b b c'
+			'a a d d c'
+			'e f d d g'
+			'e h h i j'
+		;
+
+		& div{box-sizing: border-box; margin: 5px; overflow: hidden; perspective: 600px;
+			&:nth-of-type(1){grid-area: a;}
+			&:nth-of-type(2){grid-area: b;}
+			&:nth-of-type(3){grid-area: c;}
+			&:nth-of-type(4){grid-area: d;}
+			&:nth-of-type(5){grid-area: e;}
+			&:nth-of-type(6){grid-area: f;}
+			&:nth-of-type(7){grid-area: g;}
+			&:nth-of-type(8){grid-area: h;}
+			&:nth-of-type(9){grid-area: i;}
+			&:nth-of-type(10){grid-area: j;}
+
+			& span{display: block; transform-origin: center; transition: .2s ease-out;
+				overflow: hidden;
+				&:hover{transform: translateZ(-10px);
+				
+					& img{filter: saturate(150%); border-radius: 20px;}
+				}
+			}
+
+			& img{height: 100%; object-fit: cover; object-position: center;
+				transition: .2s ease-out;}
+		}
+	}
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	#content h3{font-size: 4.5rem;}
+
+	#snowObj.on{opacity: .5;}
+
+	#content .more_button{font-size: 1.12rem; width: 220px;}
+
+	/* 태블릿 - about */
+	#content section:nth-of-type(1){
+		& ul{
+			display: block; height: auto;
+
+			& li{width: 100%; height: auto; background: transparent; margin-bottom: 30px;
+
+				&:nth-of-type(1){
+					& p{
+						&:nth-of-type(1){
+							display: none;
+						}
+						&:nth-of-type(2){
+							position: static; padding: 30px; text-align: center;
+							
+							& span{
+								display: inline-block;
+							}
+						}
+					}
+				}
+
+				& div{position: static; height: auto; flex: none; width: 40%; height: 220px;}
+
+				&:not(:nth-of-type(1)){display: flex; align-items: center;}
+				&:nth-of-type(3), &:nth-of-type(5){flex-direction: row-reverse;}
+
+				&:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5){
+					& div{background-size: 100% auto;}}
+
+				& dl{position: static; transform: none; transition: none; font-size: 0.9rem;
+					padding: 0 20px;
+	
+					& dt{font-size: 1.35rem;}
+					& dd{text-align: justify; word-break: break-all; color: #f5f5f5;
+						font-weight: 300;}
+				}
+
+				&:hover{pointer-events: none;
+					& dl{
+						background: transparent;
+
+						& dt{color: #fff;}
+					}
+				}
+			}
+		}
+	}
+
+	/* 태블릿 - stay */
+	#content section:nth-of-type(2){
+		padding: 100px 20px;
+
+		& .stay_info{
+			display: block; padding: 0;
+
+			& img{width: 100vw; height: 150px; margin-left: -20px; object-position: top;}
+			& dl{width: 100%; padding: 30px 0;
+				& dt{
+					font-size: 2rem; text-align: center;
+					& p{display: inline-block;}
+				}
+				& dd{font-size: 0.9rem;}
+			}
+		}
+
+		& .masonry{
+			& .grid-item, .grid-sizer{
+				width: 33.33%;
+
+				& div{
+					& p{
+						&:nth-of-type(1){font-size: 0.78rem;}
+						&:nth-of-type(2){font-size: 1.12rem;}
+					}
+				}
+			}
+
+			& .grid-item{
+				&:nth-last-of-type(1), &:nth-last-of-type(2){display: none;}
+			}
+		}
+	}
+
+	/* 태블릿 - faq */
+	#content section:nth-of-type(4){
+		& .faq_area{
+			& .faq_content{flex-wrap: wrap-reverse;}
+
+			& .show_a{width: 100%; margin: 0; padding: 0 20px 50px 20px;
+				
+				& dl{width: 100%; height: 350px;
+				
+					& dt{font-size: 1.12rem;}
+					& dd{font-size: 0.9rem;}
+				}
+			}
+
+			& .swiper-container{padding: 50px 0 50px 20px; height: 230px;}
+
+			& .swiper-slide{width: 400px; font-size: 1.12rem;
+			
+				& .slide_cube{
+					/* & .slide_cube_front{} */
+					& .slide_cube_right{transform: rotateY(90deg) translateZ(200px) translateX(200px);}
+				}
+
+				&:hover{
+					& .slide_cube{
+						transform: none;
+					}
+				}
+
+				&.current{
+					& .slide_cube{
+						transform: rotateY(-90deg) translateX(-200px) translateZ(200px);
+					}
+				}
+			}
+		}
+	}
+
+	/* 태블릿 - 갤러리 */
+	#content section:nth-of-type(5){
+		& .gallery_area{
+			grid-template-columns: repeat(4, 1fr); padding: 0 20px;
+
+			& div{
+				&:nth-of-type(3), &:nth-of-type(7), &:nth-of-type(10){display: none;}
+			}
+		}
+	}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+	#content h3{font-size: 3.35rem;}
+
+	/* 소형 태블릿 - about */
+	#content section:nth-of-type(1){
+		& ul{
+			& li{
+				&:not(:nth-of-type(1)){display: block;}
+
+				& div{width: 100%; height: 150px; margin-bottom: 20px;}
+
+				& dl{
+					& dt{margin-bottom: 10px;}
+				}
+
+				&:nth-of-type(4){
+					& div{background-position: 0 -100px;}
+				}
+
+				&:last-child{display: none;}
+			}
+		}
+	}
+
+	/* 소형 태블릿 - stay */
+	#content section:nth-of-type(2){
+		& .stay_info{
+			& img{display: none;}
+			
+			& dl{padding: 0;
+			
+				& dt{margin-bottom: 10px;}
+				& dd{text-align: center;}
+			}
+		}
+
+		& .masonry{
+			& .grid-item, .grid-sizer{width: 50%;}
+
+			& .grid-item{
+				&:nth-last-of-type(5), &:nth-last-of-type(6){display: none;}
+			}
+		}
+	}
+
+	/* 소형 태블릿 - season */
+	#content section:nth-of-type(3){
+		& .track{
+			overflow: hidden;
+			
+			& .train{margin-top: 115px;}
+
+			& .fixed_item{top: 0; transform: translateX(-50%); width: 100vw; height: 100px;
+				font-size: 1.78rem;}
+
+			&:nth-of-type(1){
+				& .fixed_item{left: 50%; border-left: none; border-right: none;}
+			}
+			&:nth-of-type(2){margin-top: 15px;
+				& .fixed_item{left: 50%;}
+			}
+		}
+	}
+
+	/* 소형 태블릿 - faq */
+	#content section:nth-of-type(4){
+		& h3{margin-bottom: 150px;}
+	}
+
+	/* 소형 태블릿 - gallery */
+	#content section:nth-of-type(5){
+		& .gallery_area{
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-areas:
+			'a a b'
+			'a a b'
+			'd e e'
+			'd h i';
+
+			& div{
+				&:nth-of-type(1) img{content: url(../images/main/gallery/media768/a.jpg);}
+				&:nth-of-type(2) img{content: url(../images/main/gallery/media768/b.jpg);}
+				&:nth-of-type(4) img{content: url(../images/main/gallery/media768/d.jpg);}
+				&:nth-of-type(5) img{content: url(../images/main/gallery/media768/e.jpg);}
+				&:nth-of-type(6){display: none;}
+				&:nth-of-type(8) img{content: url(../images/main/gallery/media768/h.jpg);}
+				&:nth-of-type(9) img{content: url(../images/main/gallery/media768/i.jpg);}
+			}
+		}
+
+	}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#snowObj{display: none;}
+
+	#content .more_button{font-size: 1rem; width: 180px;}
+
+	/* 모바일 - about */
+	#content section:nth-of-type(1){
+		& ul{
+			& li{
+				&:nth-of-type(1){
+					& p{
+						&:nth-of-type(2){font-size: 1rem;}
+					}
+				}
+				&:nth-of-type(4){display: none;}
+
+				& dl{
+					& dt{font-size: 1.12rem;}
+					& dd{font-size: 0.8rem;}
+				}
+			}
+		}
+	}
+
+	/* 모바일 - stay */
+	#content section:nth-of-type(2){
+		& .stay_info{
+			& dl{
+				& dt{font-size: 1.35rem;
+					& p{line-height: 1.35rem; margin-bottom: 5px;}
+				}
+				& dd{font-size: 0.8rem;}
+			}
+		}
+
+		& .masonry{
+			& .grid-item, .grid-sizer{width: 100%;}
+			& .grid-item{
+				&:nth-last-of-type(4){display: none;}
+			}
+		}
+	}
+
+	/* 모바일 - faq */
+	#content section:nth-of-type(4){
+		& .faq_area{
+			& .swiper-slide{width: calc(100% - 20px);
+
+				& .slide_cube{
+					& .slide_cube_right{transform: rotateY(90deg) translateZ(calc(50vw - 20px)) translateX(50%);}
+				}
+			
+				&.current{
+					& .slide_cube{
+						transform: rotateY(-90deg) translateX(-50%) translateZ(calc(50vw - 20px));
+					}
+				}
+			}
+		}
+	}
+
+	/* 모바일 - gallery */
+	#content section:nth-of-type(5){
+		& .gallery_area{
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-areas:
+			'a a b'
+			'a a b'
+			'd e e'
+			'd e e';
+
+			& div{
+				&:nth-of-type(5) img{content: url(../images/main/gallery/e_640.jpg);}
+				&:nth-of-type(8){display: none;}
+				&:nth-of-type(9){display: none;}
+			}
+		}
+	}
+}
+
+
+

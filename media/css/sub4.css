@@ -1,0 +1,230 @@
+/* 와이드 pc */
+#content{
+    & section{
+        &>div{height: auto;
+            &:nth-of-type(1){background: #fff; display: flex; align-items: stretch;
+				
+				& div{width: 50%;
+					& img{height: 100%; width: 100%; object-fit: cover;}
+				}
+
+                & dl{width: 50%; padding: 0 50px; box-sizing: border-box; display: flex;
+					flex-direction: column; justify-content: center;
+    
+                    & dt{
+                        & h3{font-size: 3.35rem; font-weight: 800; margin-bottom: 20px;
+                            font-family: "Anybody", sans-serif; font-style: italic;}
+                        
+                        & span{color: #E3000F;}
+                    }
+                    & dd{
+                        &:nth-of-type(2){font-weight: 700; margin-top: 20px;}
+                    }
+                }
+            }
+    
+            &:nth-of-type(2){background: #f5f5f5; padding: 100px 40px; position: relative;
+    
+                & .question_area{width: 100%;
+                    &>p{font-family: "Anybody", sans-serif; font-weight: 200;
+                        text-align: center; font-size: 2.8rem; color: #E3000F;
+                        margin-bottom: 20px;
+    
+                        &::after{content: ''; display: block; border-bottom: 3px solid #E3000F;
+                            width: 100px; margin: 0 auto;
+                        }
+                    }
+
+                    & ul{display: flex; flex-wrap: wrap;
+                        & li{width: 20%;
+                            &.current{width: 40%;
+                                & a{background: orange; color: #fff;
+                                    &::after{content: ''; border-top: 20px solid orange;}
+                                }
+
+                                & div{display: block;}
+                            }
+
+                            &.grid-item{box-sizing: border-box; padding: 5px 5px 25px 5px;}
+
+                            & a{background: #fff; text-align: center;
+                                padding: 30px; position: relative;
+                                filter: drop-shadow(0px 0px 2px #ccc) drop-shadow(0px 0px 3px rgba(0,0,0,.1));
+                                transition: .2s ease-out; font-size: 1.15rem; font-weight: 500;
+                                word-wrap: break-word;
+                                
+                                &::after{content: ''; display: block; position: absolute;
+                                    top: 100%; left: 50%; transform: translateX(-50%);
+                                    border-bottom: 20px solid transparent;
+                                    border-top: 20px solid #fff;
+                                    border-left: 10px solid transparent;
+                                    border-right: 10px solid transparent;
+                                }
+
+                                &:hover{
+                                    filter: drop-shadow(0px 0px 5px rgba(255,165,0,.7));
+                                }
+                            }
+
+                            & div{background: #fff; padding: 30px; text-align: center;
+                                border: 1px solid #ccc; display: none;
+                            
+                                & p:not(:first-child){margin-top: 20px;}
+                            }
+                        }
+                    }
+                }
+            }
+
+			&:nth-of-type(3){padding-top: 0;
+				&>div{
+					background: #E3000F; color: #fff; padding: 20px 0;
+					font-family: "Anybody", sans-serif; font-weight: 500; text-align: center;
+				}
+
+				& form{width: 60%; margin: 0 auto; color: #fff; border: 1px solid #fff;
+					padding: 20px; border-radius: 10px; margin-top: 50px; box-sizing: border-box;
+
+					&>p{font-family: "Anybody", sans-serif; font-weight: 500; font-size: 1.35rem;
+						text-align: center;}
+
+					& label{display: block; margin-bottom: 10px; margin-top: 20px;}
+				
+					& input[type="text"], & input[type="email"]{
+						height: 50px;
+					}
+
+					& input[type="text"], & input[type="email"], & textarea{
+						width: 100%; margin-bottom: 10px;
+					}
+
+					&>div{
+						&:nth-of-type(1){display: flex; justify-content: space-between;
+							flex-wrap: wrap;
+
+							& label{width: 100%;}
+							& input{width: calc(50% - 5px);}
+						}
+					}
+
+					& button{background: #E3000F; color: #fff;
+						display: block; cursor: pointer;
+						padding: 15px 70px; font-size: 1rem; margin: 20px auto 0 auto;}
+				}
+			}
+        }
+    }
+}
+
+#footerArea{background: transparent;}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#content{
+		& section{
+			&>div{
+				&:nth-of-type(1){display: block;
+
+					& div{width: 100%; height: 200px;
+						& img{object-position: 0 15%;}
+					}
+					& dl{width: 70%; margin: 0 auto; padding: 50px 0 0 0; text-align: center;}
+				}
+				&:nth-of-type(2){
+					.question_area{
+						& ul{
+							& li{width: 25%;
+								&.current{width: 50%;}
+							}
+						}
+					}
+				}
+				&:nth-of-type(3){
+					& form{width: 70%;}
+				}
+			}
+		}
+	}
+}
+
+/* 태블릿 */
+@media screen and (max-width:1024px) {
+	#content{
+		& section{
+			&>div{
+				&:nth-of-type(1){
+					& dl{width: 80%;
+						& dt{
+							& h3{font-size: 2.8rem;}
+						}
+					}
+				}
+				&:nth-of-type(2){padding: 100px 20px;
+					.question_area{
+						& ul{
+							& li{width: 33.33%;
+								&.current{width: 66.66%;}
+							}
+						}
+					}
+				}
+				&:nth-of-type(3){
+					&>div{font-size: .9rem; line-height: 1.35rem; padding: 20px;}
+					& form{width: 80%;}
+				}
+			}
+		}
+	}
+}
+
+/* 소형 태블릿 */
+@media screen and (max-width:768px) {
+	#content{
+		& section{
+			&>div{
+				&:nth-of-type(2){
+					.question_area{
+						&>p{font-size: 2.3rem;}
+
+						& ul{
+							& li{width: 50%;
+								&.current{width: 100%;}
+							}
+						}
+					}
+				}
+				&:nth-of-type(3){
+					& form{width: 90%;}
+				}
+			}
+		}
+	}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#content{
+		& section{
+			&>div{
+				&:nth-of-type(1){
+					& dl{width: 80%;
+						& dt{
+							& h3{font-size: 2rem;}
+						}
+					}
+				}
+				&:nth-of-type(2){
+					.question_area{
+						&>p{font-size: 1.35rem;}
+
+						& ul{
+							& li{width: 100%;
+								&.current{width: 100%;}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

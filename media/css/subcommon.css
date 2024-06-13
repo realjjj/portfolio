@@ -1,0 +1,13 @@
+#imgBG{display: block;}
+#content{width:100%; margin:0; position: relative; background: rgba(0,0,0,.9);
+	padding-bottom: 426px;
+
+	& h2{position: absolute; top: -50vh; left: 50%; transform: translateX(-50%);
+		font-size: 4.5rem; font-family: "Anybody", sans-serif; font-style: italic;
+		color: #fff;
+	}
+
+	& section{
+		&>div{padding: 100px 0;}
+	}
+}

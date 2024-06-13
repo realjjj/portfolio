@@ -1,0 +1,396 @@
+/* 와이드 pc  */
+
+#content{background: rgba(0,0,0,.6);
+	& .img_title{
+		position: absolute; width: fit-content; color: #fff;
+		background: #E3000F; padding: 10px 20px; top: 15px; left: 0;
+		text-transform: capitalize;
+	}
+
+	& section{
+		&>div{
+			&:nth-of-type(1){
+				background: #fff;
+	
+				& dl{text-align: center; width: 60%; margin: 0 auto;
+					& dt{
+						& h3{
+							font-size: 3.35rem; font-family: "Anybody", sans-serif; font-style: italic;
+							font-weight: 800; margin-bottom: 20px;
+							& span{color: #E3000F;}
+						}
+					}
+				}
+	
+				& ul{display: flex; gap: 10px; margin-top: 30px; flex-wrap: wrap;
+					& li{width: calc(25% - 7.5px); background: #ccc; position: relative;
+						& div{width: 100%; height: 100%; position: absolute; top: 0; left: 0;
+						
+							& img{object-fit: cover; object-position: center; height: 100%;}
+						}
+	
+						&::before{
+							content: '';
+							display: block;
+							width: 100%;
+							padding-top: min(260px, 50%);
+						}
+					}
+				}
+			}
+	
+			&:nth-of-type(2){background: #fff; padding-top: 0;
+				text-align: center; font-size: 1.35rem; color: #fff;
+	
+				& div{height: 250px;
+					display: flex; justify-content: center; align-items: center;
+					background: url(../images/sub/about/sec2_bg.jpg);
+					background-size: cover;
+				}
+	
+				& p{width: 980px; padding: 0 30px;}
+			}
+	
+			&:nth-of-type(3){padding: 0;
+				& ul{
+					border-top: 100px solid #000;
+					border-bottom: 100px solid #000;
+					display: grid;
+					width: fit-content; 
+					margin: 0 auto;
+					/* grid-gap: 10px; */
+					grid-template-columns: repeat(3, minmax(auto, 450px));
+					grid-auto-rows: auto;
+					grid-template-areas: 
+						'a1 b1 c1'
+						'd1 d1 e1'
+						'd1 d1 f1'
+						'a2 b2 c2'
+						'd2 e2 e2'
+						'f2 e2 e2'
+						'a3 b3 c3';
+	
+					& li{position: relative; border: 5px solid #000;
+						& div{position: absolute; width: 100%; height: 100%; top: 0; left: 0;
+							background: #ccc; box-sizing: border-box;
+						
+							&.rect_title{background: transparent; border: 3px solid #E3000F;
+								text-transform: capitalize; color: #E3000F; font-size: 4.5vw;
+								font-family: "Anybody", sans-serif; font-style: italic;
+								font-weight: 200; display: flex; justify-content: center;
+								align-items: center; word-break: break-all; 
+								/* line-height: 5rem; */
+								text-align: center; padding: 10px;
+							}
+						}
+	
+						&:nth-of-type(2), &:nth-of-type(8), &:nth-of-type(14) {
+							& div{padding: 30px;
+								display: flex; justify-content: center; align-items: center;
+								text-align: center; font-size: 1.35rem; background: #f5f5f5;
+							}
+						}
+	
+						&:nth-of-type(1){grid-area: a1;}
+						&:nth-of-type(2){grid-area: b1;}
+						&:nth-of-type(3){grid-area: c1;
+							& div{background-image: url(../images/sub/about/sec3_01_snow_and_ice.jpg);
+								background-size: cover;}
+						}
+						&:nth-of-type(4){grid-area: d1;
+							& div{background: url(../images/sub/about/bg1.png) #000;
+								background-size: cover; filter: brightness(80%);}
+						}
+						&:nth-of-type(5){grid-area: e1;
+							& div{background: url(../images/sub/about/sec3_02_polar_night.jpg);
+								background-size: cover;}
+						}
+						&:nth-of-type(6){grid-area: f1;
+							& div{background: url(../images/sub/about/sec3_03_northern_lights.jpg);
+								background-size: cover;}
+						}
+						&:nth-of-type(7){grid-area: a2;
+							& div{background: url(../images/sub/about/sec3_04_midnight_sun.jpg);
+								background-size: cover;}
+						}
+						&:nth-of-type(8){grid-area: b2;}
+						&:nth-of-type(9){grid-area: c2;}
+						&:nth-of-type(10){grid-area: d2;
+							& div{background: url(../images/sub/about/sec3_05_nightless_nights.jpg);
+								background-size: cover;}
+						}
+						/* &:nth-of-type(11){grid-area: e2;
+							& div{background: url(../images/sub/about/bg2.png) #000;
+								background-size: cover; filter: brightness(80%);}
+						} */
+						&:nth-of-type(11){grid-area: e2;
+							& div{font-size: 0.9rem; background: #000; color: #f5f5f5;
+								padding: 20px 0 0 20px; display: flex; flex-wrap: wrap;
+								/* overflow-y: scroll; */
+	
+								& dl{margin-bottom: 20px; text-align: justify; word-break: break-all;
+	
+									&:last-of-type{margin-bottom: 0;}
+								}
+								& dt{font-size: 1.35rem; margin-bottom: 10px; font-weight: 600;}
+								& dd{color: #ccc;}
+							}
+						}
+						&:nth-of-type(12){grid-area: f2;
+							& div{background: url(../images/sub/about/sec3_06_autumn_colours.jpg);
+								background-size: cover;}
+						}
+						&:nth-of-type(13){grid-area: a3;}
+						&:nth-of-type(14){grid-area: b3;}
+						&:nth-of-type(15){grid-area: c3; font-size: 2rem; display: flex;
+							justify-content: center; align-items: center;
+	
+							& div{
+								display: flex; flex-direction: column;
+								justify-content: center; align-items: center;
+								text-align: center; background: #000; color: #f5f5f5;
+								padding: 0 10px;
+	
+								& p{text-align: center; position: relative; width: 250px;
+									font-family: "Anybody", sans-serif; font-style: italic;
+									font-weight: 700; padding-right: 50px;
+	
+									&::before, &::after{
+										content: ''; position: absolute; top: 50%; right: 0;
+										width: 30px; height: 30px;
+										border: 5px solid #fff; border-top: none; border-left: none;
+										transform-origin: center center;
+										transform: rotate(-45deg) translateY(-50%);
+									}
+									&::after{right: 15px;}
+								}
+								& i{font-size: 4rem; margin-bottom: 20px;}
+								& span{color: #E3000F;}
+							}
+						}
+						&::after{content: ''; display: block; padding-top: 100%;}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#content{
+		& section{
+			&>div{
+				&:nth-of-type(1){
+					& ul{
+						& li{
+							width: calc(50% - 5px);
+						}
+					}
+				}
+	
+				&:nth-of-type(3){
+					& ul{
+						& li{
+							& div{
+								&.rect_title{
+									font-size: 5.5vw;
+								}
+							}
+	
+							&:nth-of-type(11){
+								& div{padding: 15px 0 0 15px;
+									& dl{
+										&:nth-of-type(2){display: none;}
+									}
+								}
+							}
+	
+							&:nth-of-type(15){font-size: 1.5rem;
+								& div{
+									& p{width: 180px;
+									
+										&::before, &::after{
+											width: 20px; height: 20px;
+										}
+									}
+									& i{font-size: 3.5rem;}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	#content{
+		& .img_title{
+			font-size: 0.9rem;
+		}
+
+		& section{
+			&>div{
+				&:nth-of-type(1){
+					& dl{
+						& dt{
+							& h3{font-size: 2.8rem;}
+						}
+						& dd{font-size: 0.9rem;}
+					}
+				}
+	
+				&:nth-of-type(2){
+					& p{font-size: 1.12rem;}
+				}
+	
+				&:nth-of-type(3){
+					& ul{
+						grid-template-columns: repeat(2, minmax(auto, 1fr));
+						grid-template-areas: 
+							'a1 b1'
+							'c1 e1'
+							'f1 d1'
+							'b2 c2'
+							'a2 d2'
+							'a3 b3'
+							'e2 e2'
+							'c3 c3';
+	
+						& li{
+							& div{
+								&.rect_title{
+									font-size: 7vw;
+								}
+							}
+	
+							&:nth-of-type(11){
+								& div{padding: 20px; position: relative;}
+								&::after{padding: 0;}
+							}
+							&:nth-of-type(12){display: none;}
+							&:nth-of-type(15){
+								&::after{padding-top: 200px;}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+	#content{
+		& section{
+			&>div{
+				&:nth-of-type(1){
+					& dl{width: 70%;}
+				}
+	
+				&:nth-of-type(3){
+					& ul{
+						& li{
+							&:nth-of-type(2), &:nth-of-type(8), &:nth-of-type(14){
+								& div{font-size: 1.15rem;}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#content{
+		& h2{font-size: 3.33rem;}
+
+		& section{
+			&>div{
+				&:nth-of-type(1){
+					& dl{width: 80%;
+						& dt{
+							& h3{font-size: 2rem;}
+						}
+					}
+	
+					& ul{
+						& li{
+							width: 100%;
+						}
+					}
+				}
+	
+				&:nth-of-type(2){
+					& p{font-size: 1rem;}
+				}
+	
+				&:nth-of-type(3){
+					& ul{
+						grid-template-columns: repeat(1, minmax(auto, 1fr));
+						grid-template-areas: 
+							'a1'
+							'b1'
+							'c1'
+							'e1'
+							'f1'
+							'd1'
+							'c2'
+							'b2'
+							'a2'
+							'd2'
+							'a3'
+							'b3'
+							'e2'
+							'e2'
+							'c3'
+							'c3';
+	
+						& li{
+							& div{
+								&.rect_title{
+									font-size: 12vw;
+								}
+							}
+	
+							&:nth-of-type(2), &:nth-of-type(8), &:nth-of-type(14){
+								& div{font-size: 1rem;}
+							}
+	
+							&:nth-of-type(1), &:nth-of-type(9), &:nth-of-type(13){
+								&::after{padding-top: 100px;}
+							}
+	
+							&:nth-of-type(3), &:nth-of-type(5), &:nth-of-type(6),
+							&:nth-of-type(7), &:nth-of-type(10){
+								& div{background-position: center;}
+							}
+							
+							&:nth-of-type(4){display: none;}
+	
+							&:nth-of-type(11){
+								& div{padding: 20px 10px;
+									& dl{
+										&:nth-of-type(3){display: none;}
+									}
+									& dt{font-size: 1.15rem;}
+								}
+							}
+	
+							&::after{
+								padding-top: 300px;
+							}
+						}
+					}	
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,227 @@
+{
+    "data": [
+        {
+            "index": 0,
+            "title": "What are the weather and temperatures like in Rovaniemi in winter/spring/summer/autumn?",
+            "body": [
+                "Annual temperatures in Rovaniemi vary between as cold as -30 degrees Celsius in the winter to +25 degrees Celsius in the summer. There are stark contrasts between seasons this far north, and each of them have their own characteristics. Please read more on our seasons page.",
+                "If you're wandering for the best time for you to travel to Rovaniemi, please get to know our seasons and find more information here."
+            ],
+            "img": ""
+        },
+        {
+            "index": 1,
+            "title": "How do I get to Rovaniemi?",
+            "body": [
+                "Rovaniemi has excellent travel connections, please see our Getting here page. You can reach Rovaniemi by taking a flight, a train or a bus connection. One option is also to drive with your own or rental car."
+            ],
+            "img": "./images/sub/faq/01.jpg"
+        },
+        {
+            "index": 2,
+            "title": "How do I get from the airport to Rovaniemi city centre and vice versa?",
+            "body": [
+                "During winter season you can get from the airport to the city and from the city to the airport by Santa Claus Bus or Airport Taxi.",
+                "Otherwise taxi is the only option, please see more here."
+            ],
+            "img": ""
+        },
+        {
+            "index": 3,
+            "title": "When and where can I see the Northern Lights?",
+            "body": [
+                "The Northern Lights can be seen in Rovaniemi from late August until early April on clear, dark, cloudless nights away from city lights.",
+                "For information on the phenomenon, viewing spots, activities and more, please see our Northern Lights page."
+            ],
+            "img": ""
+        },
+        {
+            "index": 4,
+            "title": "When and where can I see the Midnight Sun?",
+            "body": [
+                "The Midnight Sun period in Rovaniemi officially lasts from early June until early July. However, nights are white and there’s light around the clock from the end of May until early August.",
+                "For information on the phenomenon, viewing spots, activities and more, please see our Midnight Sun page."
+            ],
+            "img": "./images/sub/faq/04.jpg"
+        },
+        {
+            "index": 5,
+            "title": "What kind of clothes will I need and where can I rent them?",
+            "body": [
+                "The best way to prepare for the cold frost is to dress in warm layers: warm undergarments (long-sleeved and long-legged thermals), warm garments under your coat (e.g. wool or fleece) and external garments made of close-woven fabrics.",
+                "As for footwear, bring socks, woollen socks and lined, thick-soled shoes. Your shoes should be big enough to leave room for wiggling your toes. Wear woollen or other warm headgear that protects your ears, cheeks and neck. For you hands, you will need over-gloves and under-gloves or mittens (cotton, wool, fleece, quilted fabric).",
+                "Many activity companies rent out winter clothing including thermal overalls and footwear, woollen socks, warm hats, balaclavas, mittens and scarves.",
+                "More information about equipment and clothing rental here."
+            ],
+            "img": ""
+        },
+        {
+            "index": 6,
+            "title": "Is there luggage storage in Rovaniemi?",
+            "body": [
+                "Please find a list of luggage storage facilities in the city centre and in the Santa Claus Village here."
+            ],
+            "img": ""
+        },
+        {
+            "index": 7,
+            "title": "What kind of activities and excursions does Rovaniemi offer in winter?",
+            "body": [
+                "Among the most popular winter activities are reindeer sleigh rides, husky tours, snowmobile safaris, Northern Lights tours, as well as cross-country skiing, snowshoeing and ice fishing trips. See all winter activities here.",
+                "Please note! Snow-related activities are usually available from late November/early December to early April. Although first snow often falls in October, the permanent snow cover is usually in place by December, allowing winter activities to take place. By mid-April, the sun is already warm enough to begin softening and melting the snow.",
+                "However, even if there isn't enough snow in early winter for the snow activities, we still offer plenty of other experiences: visits to reindeer and husky farms, nature trips, Northern Lights tours and sauna programmes."
+            ],
+            "img": "./images/sub/faq/07.jpg"
+        },
+        {
+            "index": 8,
+            "title": "What kind of activities and excursions does Rovaniemi offer in spring, summer and autumn?",
+            "body": [
+                "Spring (late April - May): Among the most popular are visits to reindeer & husky farms and nature trips. See all spring activities here.",
+                "Summer (June - August): Among the most popular are Midnight Sun tours, riverboat cruises, visits to reindeer and husky farms, nature trips (hiking, fishing and canoeing), moose watching and sauna programmes. See all summer activities here.",
+                "Autumn (September - November): Among the most popular are Northern Lights tours, visits to reindeer and husky farms, husky carriage rides, nature trips (hiking, fishing and canoeing) and sauna programmes. See all summer activities here."
+            ],
+            "img": ""
+        },
+        {
+            "index": 9,
+            "title": "How can I book an activity tour?",
+            "body": [
+                "You can book tours and safaris online on Visit Rovaniemi webpage www.visitrovaniemi.fi/see-do/activities/ or directly from the activity companies.",
+                "To guarantee the availability of the desired activities, we'd recommend to pre-book well beforehand.",
+                "You can also book activities after your arrival in Rovaniemi Tourist Information (Koskikatu 12) or directly from the activity companies.",
+                "Solo traveller! Many excursions are operated with a minimum of two full-paying customers, but single travellers are most welcome to join if a tour already has enough participants. Kindly check the availability from Rovaniemi Tourist Information (on spot) or from the company providing the tour."
+            ],
+            "img": ""
+        },
+        {
+            "index": 10,
+            "title": "Should I book accommodation in advance?",
+            "body": [
+                "It is recommended. Since Rovaniemi does not have a central booking system, we recommend you contact accommodation providers directly.",
+                "Another option is contacting a travel specialist, as they often have pre-reserved accommodation, particularly for the busy Christmas and New Year period."
+            ],
+            "img": ""
+        },
+        {
+            "index": 11,
+            "title": "How do I get from Rovaniemi city centre to Santa Claus Village?",
+            "body": [
+                "Local transport bus number 8 and Santa Claus Bus will take you there. Please find the timetables here:",
+                "Local bus 8 (all year around): timetable (valid 3.6.-6.8.2024)",
+                "Santa Claus Bus"
+            ],
+            "img": ""
+        },
+        {
+            "index": 12,
+            "title": "Are there equipment rentals in Rovaniemi? How about car rentals?",
+            "body": [
+                "There are several equipment rentals, plase find more information here.",
+                "For renting cars, please see our Getting around page."
+            ],
+            "img": ""
+        },
+        {
+            "index": 13,
+            "title": "Can I meet Santa Claus all year around?",
+            "body": [
+                "In Rovaniemi, you can visit Santa Claus every single day of the year in Santa Claus Village on the Arctic Circle."
+            ],
+            "img": ""
+        },
+        {
+            "index": 14,
+            "title": "How do I send a letter to Santa Claus?",
+            "body": [
+                "You can send Santa a letter to this address:",
+                "Santa Claus Santa Claus' Main Post Office Tähtikuja 1 96930 Arctic Circle FINLAND",
+                "Because Santa receives more than 700 000 letters a year, he can't possibly reply to all of them. However, together with his elves, he reads every one of them and tries to answer as many as possible. If you want to be sure of Santa's reply, you can order a letter from Santa Claus."
+            ],
+            "img": ""
+        },
+        {
+            "index": 15,
+            "title": "Where can I see reindeer?",
+            "body": [
+                "You can see reindeer year round in quite a few places in Rovaniemi, go on reindeer sleigh rides and farm tours. Please have a look at reindeer related activities in Rovaniemi here.",
+                "If your visit to Rovaniemi includes Santa Claus Village, you're likely to see some there. One sure bet is Ranua Wildlife Park."
+            ],
+            "img": ""
+        },
+        {
+            "index": 16,
+            "title": "Where in Rovaniemi can I cross-country ski or downhill ski and snowboard?",
+            "body": [
+                "Ounasvaara outdoor area has an excellent network of cross-country skiing trails within walking distance from Rovaniemi city centre. Altogether, there are around 100 kilometres of trails, around 50 kilometres of which are lit.",
+                "Ounasvaara is also the place for downhill skiing and snowboarding. Ounasvaara Ski Centre is suitable especially for beginners and those who enjoy doing trick in the snow park. Equipment hire is available on site."
+            ],
+            "img": ""
+        },
+        {
+            "index": 17,
+            "title": "Where in Rovaniemi can I hike in nature?",
+            "body": [
+                "Very good option close to the city centre is Ounasvaara hiking trail.",
+                "A twenty-minute drive north of the city centre, the Arctic Circle Hiking Area is a round nature spot with several hiking trails.",
+                "Both places are accessible year round."
+            ],
+            "img": ""
+        },
+        {
+            "index": 18,
+            "title": "What are the shops' opening hours?",
+            "body": [
+                "Food and department stores are generally open:",
+                "Mon-Fri 8 - 21, Sat 9 - 21, Sun  9 - 21",
+                "Smaller, specialist retailers tend to be open:",
+                "Mon-Fri 10 - 18, Sat 10 - 16, Sun 12 - 16",
+                "Most shops have limited opening hours on public holidays."
+            ],
+            "img": ""
+        },
+        {
+            "index": 19,
+            "title": "Where can I buy souvenirs and local handicrafts?",
+            "body": [
+                "Many shops in Rovaniemi city centre and Santa Claus Village sell souvenirs and local handicrafts. For more details, please see our Shopping page."
+            ],
+            "img": ""
+        },
+        {
+            "index": 20,
+            "title": "Where can I eat local Lappish food?",
+            "body": [
+                "There are several options in Rovaniemi for local food experiences. Please see our Eat and drink page.",
+                "For more information on local food culture, please see here."
+            ],
+            "img": ""
+        },
+        {
+            "index": 21,
+            "title": "Are there mosquitoes in Rovaniemi in the summer and how should I protect myself from them?",
+            "body": [
+                "From mid-June to mid-August, there may be large numbers of mosquitoes and other small insects that pester you. They’re not a nuisance in the city centre, but in forested areas, on shorelines and on river banks they can be quite unpleasant.",
+                "Not to worry - they're not dangerous. Their bites cause itchy bumps, but they do not carry disease or anything of the sort. All food shops and kiosks, service stations etc. sell a range of mosquito repellents. Long-sleeved and long-legged garments will also protect you from mosquitoes. One tip is to wear light colours."
+            ],
+            "img": ""
+        },
+        {
+            "index": 22,
+            "title": "Could you please send me a brochure?",
+            "body": [
+                "We'd be happy to! If an e-version suits you, please find them here. If you want us to send you a copy, please email Rovaniemi Tourist Information at info (at) visitrovaniemi.fi or send your request via the question form below. Please specify what type of brochure you're after so we know to send you the right one."
+            ],
+            "img": ""
+        },
+        {
+            "index": 23,
+            "title": "Parking in Rovaniemi?",
+            "body": [
+                "You can find information about parking in Rovaniemi here.",
+                "Parking at Rovaniemi train station, see Moovy application."
+            ],
+            "img": ""
+        }
+    ]
+}

@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rovaniemi</title>
+	<link rel="shortcut icon"  type="image/x-icon"  href="./favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="./app_icon.png">
+	<link rel="apple-touch-startup-image" href="./startup.png">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="./css/swiper.min.css">
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/layout.css">
+
+	<script src="./js/prefixfree.min.js"></script>
+	<script src="https://kit.fontawesome.com/56f415dbb0.js" crossorigin="anonymous"></script>
+	<script src="./js/common.js"></script>
+	<script src="./js/main.js"></script>
+</head>
+<body>
+	<div id="skipNav">
+		<a href="#content">본문바로가기</a>
+		<a href="#gnb">네비게이션바로가기</a>
+	</div>
+	<div id="wrap">
+		<div id="snowObj">
+			<img src="./images/main/snow_crystal.png" alt="" width="100%">
+		</div>
+		<div class="videoBox">
+			<video autoplay loop muted id="videoBG"></video>
+			<img src="./images/back.jpg" id="imgBG">
+			<!-- scroll down start -->
+			<a href="#" class="down">
+				<div>
+					<img src="./images/scroll_down_tree.png" alt="" class="tree">
+					<img src="./images/scroll_down_tree_bg.png" alt="" class="tree_bg">
+				</div>
+				<span>SCROLL DOWN</span>
+			</a>
+			<!-- scroll down end -->
+		</div>
+		<!-- header start -->
+		<header id="headerArea">
+			<h1>
+				<a href="./index.html">
+					<span class="hidden">Rovaniemi</span>
+				</a>
+			</h1>
+			<a href="#" class="gnb_open">
+				<span></span>
+			</a>
+			<nav id="gnb">
+				<h2 class="hidden">네비게이션영역</h2> 
+				<a href="#" class="gnb_close">X</a>
+				<img src="./images/gnb_logo.png" alt="" class="gnb_logo">
+				<ul>
+					<li><h3><a href="./sub1.html?num=1">ABOUT</a></h3></li>
+					<li><h3><a href="./sub2.html?num=2">STAY</a></h3></li>
+					<li><h3><a href="./sub3.html?num=3">SEASON</a></h3></li>
+					<li><h3><a href="./sub4.html?num=4">FAQ</a></h3></li>
+					<li><h3><a href="./sub5.html?num=5">GALLERY</a></h3></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- header end -->
+		<!-- content start -->
+		<article id="content">
+			<h2 class="hidden">본문콘텐츠영역</h2>
+			<section>
+				<div class="inner">
+					<h3>About</h3>
+					<ul>
+						<li>
+							<p>ROVANIEMI</p>
+							<p>
+								<span>THE OFFICIAL</span>
+								<span>HOMETOWN</span>
+								<span>OF SANTA CLAUS</span>
+							</p>
+						</li>
+						<li>
+							<div></div>
+							<dl>
+								<dt>Experience</dt>
+								<dd>
+									a living story that will change you forever. 
+									Your magical journey here at Arctic Circle, Lapland, 
+									Finland is guided by the values of authenticity, 
+									giving, creativity and constant presence. 
+									It's also your moment to meet Santa Claus 
+									any day of the year and write a chapter in your 
+									life's story while exploring Rovaniemi area rich 
+									in history and curious details.
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<div></div>
+							<dl>
+								<dt>Only</dt>
+								<dd>
+									Mesmerizing Rovaniemi is the only travel destination 
+									in Lapland nestled right at the Arctic Circle - a thrilling 
+									adventure awaits those who are curious enough to cross 
+									this significant geographical line.
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<div></div>
+							<dl>
+								<dt>Full of</dt>
+								<dd>
+									Rovaniemi is full of breathtaking phenomena and natural 
+									elements. Summer with Midnight Sun, magical Northern Lights, 
+									breathtaking Autumn colours and mystical Polar Night all 
+									provide memories for a lifetime.
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<div></div>
+							<dl>
+								<dt>Combines</dt>
+								<dd>
+									Rovaniemi combines the northern nature with urban 
+									surroundings, self-confident localness and open-minded 
+									internationality.
+								</dd>
+							</dl>
+						</li>
+					</ul>
+					<a href="./sub1.html?num=1" class="more_button">Read more</a>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<h3>STAY</h3>
+					<div class="stay_info">
+						<img src="./images/main/stay/info.jpg" alt="">
+						<dl>
+							<dt>
+								<p>Accommodation in</p>
+								<p>Rovaniemi, Lapland</p>
+							</dt>
+							<dd>Discover unparalleled comfort at Rovaniemi, 
+								Lapland's accommodation hub. Nestled right 
+								at the Arctic Circle, indulge in the largest 
+								and most diverse selection of stays, where 
+								luxury meets the magic of the north, creating 
+								an unforgettable Arctic experience.
+							</dd>
+						</dl>
+					</div>
+					<div class="masonry">
+						<ul class="grid">
+							<li class="grid-sizer"></li>
+							<!-- json -->
+						</ul>
+					</div>
+					<a href="./sub2.html?num=2" class="more_button">Read more</a>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<h3>SEASON</h3>
+					<div class="track" id="seasonTrack1">
+						<div class="fixed_item">Winter</div>
+						<div class="train">
+							<ul>
+								<li>
+									<img src="./images/main/season/winter/01.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Provided by BearhillHusky Experiences</p>
+										<p>Taiga Husky Tour</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/winter/02.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Nordic Adventures</p>
+										<p>Northern Lights Hunting by Minibus, From Rovaniemi</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/winter/03.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Arctic Photo Experience</p>
+										<p>Hiking in Riisitunturi National Park</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/winter/04.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Wonderlapland Experiences</p>
+										<p>Vaattukikongas Hike : the forest trail</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/winter/05.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Aurora Horses</p>
+										<p>Sleigh Ride around Santa Claus Village</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/winter/06.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Bliss Adventure</p>
+										<p>Premium Ice Climbing in Pyhä Lapland</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/winter/07.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Arctic Circle Snowmobile Park</p>
+										<p>Elf Hat Academy in Santas Village</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="track" id="seasonTrack2">
+						<div class="fixed_item">Summer</div>
+						<div class="train">
+							<ul>
+								<li>
+									<img src="./images/main/season/summer/01.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Nordic Unique Travels</p>
+										<p>Moose Wild Safari - Small Group Tour</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/summer/02.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Nordic Unique Travels</p>
+										<p>Private Traditional Lakeside Sauna with Midnight Sun</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/summer/03.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Lapland Welcome</p>
+										<p>Trip to Korouoma Canyon</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/summer/04.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Laenlammen tila</p>
+										<p>Midnight sun riding to the hill 2h</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/summer/05.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Nordic Unique Travels</p>
+										<p>Summer Day in Ranua Zoo, Husky Farm and Reindeer Farm</p>
+									</div>
+								</li>
+								<li>
+									<img src="./images/main/season/summer/06.jpg" alt="" width="100%">
+									<div>
+										<p>Provided by Nordic Unique Travels</p>
+										<p>Taste of Lapland</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<h3>FAQ</h3>
+					<div class="faq_area">
+						<div class="faq_content">
+							<!-- json -->
+						</div>
+						<a href="./sub4.html?num=4" class="more_button">Read more</a>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<h3>GALLERY</h3>
+					<div class="gallery_area">
+						<div>
+							<span>
+								<img src="./images/main/gallery/a.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/b.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/c.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/d.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/e.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/f.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/g.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/h.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/i.jpg" alt="" width="100%">
+							</span>
+						</div>
+						<div>
+							<span>
+								<img src="./images/main/gallery/j.jpg" alt="" width="100%">
+							</span>
+						</div>
+					</div>
+					<a href="./sub5.html?num=5" class="more_button">Read more</a>
+				</div>
+			</section>
+		</article>
+		<!-- content end -->
+		<!-- footer start -->
+		<footer id="footerArea">
+			<a href="#" class="top">
+				<img src="./images/top.png" alt="">
+				<img src="./images/top_bg.png" alt="">
+				<span>Top</span>
+			</a>
+			<div class="footer_inner">
+				<div class="snowing"></div>
+				<img src="./images/footer_shape.png" alt="" width="100%">
+				<div class="footer_content">
+					<div>
+						<dl>
+							<dt>Contact info</dt>
+							<dd>Rovaniemi tourist information</dd>
+							<dd>Koskikatu 12, 96200 Rovaniemi, Finland</dd>
+							<dd>+358 40 829 0676</dd>
+							<dd>info(at)visitrovaniemi.fi</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="./images/footer_logo.png" alt="" width="100%">
+					</div>
+					<div>
+						<dl>
+							<dt>Follow your instincts</dt>
+							<dd>
+								<a href="#">
+									<span class="hidden">instagram</span>
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+								<a href="#">
+									<span class="hidden">facebook</span>
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+								<a href="#">
+									<span class="hidden">youtube</span>
+									<i class="fa-brands fa-square-youtube"></i>
+								</a>
+								<a href="#">
+									<span class="hidden">x twitter</span>
+									<i class="fa-brands fa-x-twitter"></i>
+								</a>
+								<a href="#">
+									<span class="hidden">linkedin in</span>
+									<i class="fa-brands fa-linkedin-in"></i>
+								</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer end -->
+	</div>	
+
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/video.js"></script>
+	<script src="./js/masonry.pkgd.min.js"></script>
+    <script src="./js/imagesloaded.pkgd.js"></script>
+</body>
+</html>

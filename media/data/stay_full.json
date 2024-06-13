@@ -1,0 +1,574 @@
+{
+	"data": [
+		{
+			"index": 0,
+			"type": "B&Bs and apartments",
+			"name": "Aakenus Apartments",
+			"about": "Aakenus apartments includes totally 13 apartments: We have different size and types of apartments, and most of them are fully renovated. Some apartments are located just behind our Hotel Aakenus main building and some different places around Rovaniemi city center. Aakenus apartments is part of family owned Hotel Aakenus. Apartments guests can use reception, restaurant and other services of Hotel Aakenus.",
+			"info":
+				{
+					"providedBy": "Hotel Aakenus",
+					"connect": [
+						"hotelaakenus.rovaniemi@gmail.com",
+						"+358 16 342 2051"
+					],
+					"address": [
+						{"addr": "Koskikatu 47, 96100 Rovaniemi"},
+						{"Hotelliaakenus.net": "https://hotelliaakenus.net/en/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Apartments", "Aakenus Apartments",
+				"Hotel Aakenus", "Accommodation in the city centre"
+			],
+			"images": [
+				"01.jpg",
+				"02.jpg",
+				"03.jpg",
+				"04.jpg",
+				"05.jpg",
+				"06.jpg",
+				"07.jpg"
+			]
+		},
+		{
+			"index": 1,
+			"type": "Cottages",
+			"name": "Aapishovi chalet",
+			"about": "Aapishovi chalet is a spacious log cabin located at the shore of Ounasjoki river about 28 km from Rovaniemi. The chalet offers a rustic environment with its wooden interior, a wood-burning fireplace and a large patio. There are beds for 12 – 16 persons. There are 6 bed rooms with two beds in each and there are extra beds available. The chalet has a fully equipped kitchen and a big dining table. There is always ready sauna for relaxation. Outside there is a terrace with barbeque facilities and there is a cozy hut with a fire place. If you feel like visiting the surroundings, this chalet is 34 km from the Santa Claus Village – Main Post Office and 30 km from Arktikum Science Centre. This chalet is 35 km from Rovaniemi Airport.",
+			"info":
+				{
+					"providedBy": "Aapishovi",
+					"connect": [
+						"risto.yrjanheikki@elisanet.fi",
+						"+358505850728"
+					],
+					"address": [
+						{"addr": "Ounasjoen itäpuolentie 2879, 97280 Rovaniemi"},
+						{"Aapishovi.fi": "http://www.aapishovi.fi/?page_id=410"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Cottages", "Aapishovi",
+				"Accommodation in vicinity (10-100 km)"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif",
+				"03.avif",
+				"04.avif",
+				"05.avif",
+				"06.avif",
+				"07.avif"
+			]
+		},
+		{
+			"index": 2,
+			"type": "Cottages",
+			"name": "Ahosen Lomamökit",
+			"about": "Cosy cottages accommodating four, six or eight persons by lake Vikajärvi about 30 kilometres from the centre of Rovaniemi along a road number 4/E75. Each cottage has fully equipped kitchen, sauna, fireplace, TV, free Wi-Fi, barbecue possibility and private sandy beach with a rowing boat.",
+			"info":
+				{
+					"providedBy": "Ahosen Lomamökit",
+					"connect": [
+						"info@ahosenlomamokit.fi",
+						"+358 50 547 3888"
+					],
+					"address": [
+						{"addr": "Laaksonperäntie 59, 97510 Vikajärvi"},
+						{"Ahosenlomamokit.fi": "https://ahosenlomamokit.fi/etusivu_en/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Cottages", "Ahosen Lomamökit",
+				"Accommodation in vicinity (10-100 km)"
+			],
+			"images": [
+				"01.jpg",
+				"02.jpg",
+				"03.jpg",
+				"04.jpg"
+			]
+		},
+		{
+			"index": 3,
+			"type": "Holiday villages",
+			"name": "Apukka Resort Rovaniemi, Lapland, Finland",
+			"about": "Apukka Resort is located in Rovaniemi in Finnish Lapland. Apukka Resort is a wilderness holiday village in the embrace of two lakes, only a 10-minute drive from Santa Claus Village and Rovaniemi International Airport, yet the middle of unspoiled nature. Placed on the last frontier, where the city of Rovaniemi ends and the outback begins, the warm glow from the fireplace of Apukka Resort is always ready to welcome travelers from all around the world.",
+			"info":
+				{
+					"providedBy": "Apukka Resort",
+					"connect": [
+						"sales@apukkaresort.fi",
+						"+358293700269"
+					],
+					"address": [
+						{"addr": "Tutkijantie 28, 96900 Rovaniemi"},
+						{"Apukkaresort.fi": "https://ahosenlomamokit.fi/etusivu_en/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Cottages", "Snow accommodation",
+				"Hotels", "Glass igloos", "Holiday villages", "Apukka Resort",
+				"Special accommodation", "Sustainable accommodation",
+				"Accommodation in vicinity (10-100 km)"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif",
+				"03.avif",
+				"04.avif",
+				"05.avif",
+				"06.avif",
+				"07.avif"
+			]
+		},
+		{
+			"index": 4,
+			"type": "Accommodation outside Rovaniemi",
+			"name": "Arctic Hilltop Boutique Hotel Iso-Syöte",
+			"about": "The Arctic Hilltop Boutique Hotel Iso-Syöte is standing grandly on a hilltop in one of the snowiest areas of Finland next to a peaceful national park. In the relaxing spa, all the senses are calmed down and the high-quality panoramic Restaurant Hilltop offers nourishment both for the soul and the body. Hotel Iso-Syöte also offers joyful experiences of a true winter wonderland, such as skiing, snowshoeing, downhill skiing as well as snowmobile, reindeer and husky safaris.",
+			"info":
+				{
+					"providedBy": "Iso-Syöte Arctic Hilltop Boutique Hotel",
+					"connect": [
+						"myyntipalvelu@isosyote.fi",
+						"+358201476400"
+					],
+					"address": [
+						{"addr": "Isosyötteentie 246, 93280 Syöte"},
+						{"Hotelli-isosyote.fi": "https://hotelli-isosyote.fi/en/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation outside Rovaniemi", "Arctic Hilltop Boutique Hotel Iso-Syöte",
+				"Accommodation", "Cottages", "Hotels", "Holiday villages",
+				"Special accommodation"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif",
+				"03.avif",
+				"04.avif",
+				"05.avif",
+				"06.avif",
+				"07.avif"
+			]
+		},
+		{
+			"index": 5,
+			"type": "Hotels",
+			"name": "Arctic Light Hotel",
+			"about": "The Arctic Light Hotel is a multi-award winning, contemporary boutique hotel situated in the heart of Lapland-Rovaniemi. The family-owned hotel is easy to reach by plane, car and train and is only steps away from the main activity providers in the city and the major shopping and cultural areas.",
+			"info":
+				{
+					"providedBy": "Arctic Light Hotel",
+					"connect": [
+						"hotel@arcticlighthotel.fi",
+						"+358201710100"
+					],
+					"address": [
+						{"addr": "Valtakatu 18, 96200 Rovaniemi"},
+						{"Arcticlighthotel.fi": "https://www.arcticlighthotel.fi/"}
+					]
+				}
+			,
+			"tags": [
+				"All year", "Accommodation", "Hotels", "Arctic Light Hotel",
+				"Sustainable accommodation", "Accommodation in the city centre"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif",
+				"03.avif",
+				"04.avif",
+				"05.avif",
+				"06.avif",
+				"07.avif"
+			]
+		},
+		{
+			"index": 6,
+			"type": "Hotels",
+			"name": "Arctic TreeHouse Hotel",
+			"about": "The Arctic TreeHouse hotel provides a unique blend of luxury comfort in the heart of Arctic nature, local Lappish traditions and modern Scandinavian design. In contrast to the meticulously designed accommodation and nest-like coziness, the panoramic views from the windows provide impressive spectacles of the forest and Arctic skies: the northern lights and midnight sun can be admired from the comfort of your bed.",
+			"info":
+				{
+					"providedBy": "Arctic TreeHouse Hotel",
+					"connect": [
+						"info@arctictreehousehotel.com",
+						"+358 50 517 6909"
+					],
+					"address": [
+						{"addr": "Tarvantie 3, 96930 Rovaniemi"},
+						{"Arctictreehousehotel.com": "https://arctictreehousehotel.com/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Hotels", "Arctic TreeHouse Hotel", "Special accommodation",
+				"Sustainable accommodation", "Accommodation in Santa Claus Village",
+				"All year"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif",
+				"03.avif",
+				"04.avif",
+				"05.avif",
+				"06.avif",
+				"07.avif"
+			]
+		}, 
+		{
+			"index": 7,
+			"type": "Cottages",
+			"name": "Aurora Cottage Otsola",
+			"about": "The cottage (23 square meters) is located on the Northern side of a private peninsula with no light pollution around. There is a perfect panorama view over the lake and the Northern skyline. The cottage provides a warm and cozy place to wait for the Northern Lights to come up. The best time of the year to see the Northern Lights in Rovaniemi is from mid-August until early April, however there are no guarantees for them to always be seen.",
+			"info":
+				{
+					"providedBy": "Lapland Deluxe",
+					"connect": [
+						"info@laplanddeluxe.fi",
+						"+358 40 590 7290"
+					],
+					"address": [
+						{"Laplanddeluxe.fi": "https://www.laplanddeluxe.fi/en/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Cottages", "Lapland Deluxe", "Accommodation in vicinity (10-100 km)",
+				"Aurora Cottage Otsola"
+			],
+			"images": [
+				"01.jpg",
+				"02.jpg"
+			]
+		},
+		{
+			"index": 8,
+			"type": "Hotels",
+			"name": "Beana Laponia",
+			"about": "Beana Laponia is a wilderness boutique hotel in a small Lappish village approx. 50 km from Rovaniemi. As the first adults only -hotel in Lapland we offer our personal service and unforgettable activities in small groups. Our distance from the city lights makes us ideal for spotting aurora borealis, and the surrounding wilderness offers countless possibilities for an active nature holiday.",
+			"info":
+				{
+					"providedBy": "Beana Laponia",
+					"connect": [
+						"info@beanalaponia.fi",
+						"+358 400 797 108"
+					],
+					"address": [
+						{"addr": "Lumitassuntie 53, 97340 Meltaus"},
+						{"Beanalaponia.com": "https://beanalaponia.com/en/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Hotels", "Beana Laponia", "Sustainable accommodation",
+				"Accommodation in vicinity (10-100 km)"
+			],
+			"images": [
+				"01.jpg",
+				"02.jpg",
+				"03.jpg",
+				"04.jpg"
+			]
+		},
+		{
+			"index": 9,
+			"type": "B&Bs and apartments",
+			"name": "Casa Arctica Apartment with sauna",
+			"about": "Our beautiful Apartment is only 150 metres from our home office in Rovaniemi. It is in a small terrace house with private entrance. It has private sauna and large balcony viewing to the riverside. The Apartment (40 m2) is suitable for 2-4 persons. It has fully-equipped kitchen and bathroom with private sauna. The living-room has a comfortable sofa-bed for 1-2 persons and the bedroom has a double-bed.",
+			"info":
+				{
+					"providedBy": "Casa Arctica",
+					"connect": [
+						"kiki.rotkonen@gmail.com",
+						"+358 50 3433 112"
+					],
+					"address": [
+						{"addr": "Ounasjoentie 31 as 6, 96200 Rovaniemi"},
+						{"Casa-arctica.fi": "https://beanalaponia.com/en/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Casa Arctica", "B&Bs and apartments",
+				"Accommodation in the city centre"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif"
+			]
+		},
+		{
+			"index": 10,
+			"type": "B&Bs and apartments",
+			"name": "Casa Arctica City Centre Studio",
+			"about": "Our stylish Studio is located in Rovaniemi city centre in a quiet corner though only 100 metres from Revontuli shopping centre. The Studio (32 m2) is ideal for 2 persons. Arktikum museum is only 200 metres away as also Pedestrian zone and Lordi Square.",
+			"info":
+				{
+					"providedBy": "Casa Arctica",
+					"connect": [
+						"kiki.rotkonen@gmail.com",
+						"+358 50 3433 112"
+					],
+					"address": [
+						{"addr": "Vartiokatu 18-22 C 28, 96200 Rovaniemi"},
+						{"Casa-arctica.fi": "https://casa-arctica.fi/"}
+					]
+				}
+			,
+			"tags": [
+				"B&Bs and apartments", "Accommodation in the city centre",
+				"Accommodation", "Casa Arctica"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif"
+			]
+		},
+		{
+			"index": 11,
+			"type": "B&Bs and apartments",
+			"name": "Casa Arctica Guesthouse",
+			"about": "Atmospheric and high-quality cottage to rest and enjoy during your visit in Rovaniemi, the city of Santa Claus, less than a kilometre from the city centre. The city sights, shopping and restaurants within a walking distance!",
+			"info":
+				{
+					"providedBy": "kiki.rotkonen@gmail.com",
+					"connect": [
+						"kiki.rotkonen@gmail.com",
+						"+358 50 3433 112"
+					],
+					"address": [
+						{"addr": "Pirttitie 17, 96200 Rovaniemi"},
+						{"Casa-arctica.fi": "https://casa-arctica.fi/"}
+					]
+				}
+			,
+			"tags": [
+				"Casa Arctica", "Accommodation in the city centre", "Accommodation",
+				"Apartments", "Guesthouses"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif"
+			]
+		},
+		{
+			"index": 12,
+			"type": "B&Bs and apartments",
+			"name": "Casa Arctica Studio with Sauna",
+			"about": "Our stunning Studio with Sauna is only 150 metres from our home office in Rovaniemi. It is in a small terrace house with private entrance. It has private sauna and large glazed balcony.",
+			"info":
+				{
+					"providedBy": "Casa Arctica",
+					"connect": [
+						"kiki.rotkonen@gmail.com",
+						"+358 50 3433 112"
+					],
+					"address": [
+						{"addr": "Ounasjoentie 31 as 8, 96200 Rovaniemi"},
+						{"Casa-arctica.fi": "https://casa-arctica.fi/"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Casa Arctica", "B&Bs and apartments",
+				"Accommodation in the city centre"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif"
+			]
+		},
+		{
+			"index": 13,
+			"type": "Cottages",
+			"name": "Cozy Hommala Cottage",
+			"about": "Located 18km from Ranua and right next to the Simojoki river, this cottage is a hidden haven for families that appreciate peaceful surroundings. As soon as you will step into the area, you will feel the calm atmosphere it offers. The cottage pays homage to Finnish nature, and plays with the use of light and dark tones in a skillful manner. The Hommala cottage offers a perfect place to enjoy ultra-luxe surroundings close to nature. A warm welcome!",
+			"info":
+				{
+					"providedBy": "Arctic Dreams House",
+					"connect": [
+						"Nid.ho@wikkela.fi",
+						"0504718189"
+					],
+					"address": [
+						{"Arcticdreamshouse.com": "https://arcticdreamshouse.com/"}
+					]
+				}
+			,
+			"tags": [
+				"Cottages", "rctic Dreams House", "Accommodation outside Rovaniemi",
+				"Ranua", "Hommala Cottage"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif",
+				"03.avif",
+				"04.avif",
+				"05.avif"
+			]
+		},
+		{
+			"index": 14,
+			"type": "Special accommodation",
+			"name": "Glass Resort",
+			"about": "The 24 Premium Glass Apartments at Glass Resort are designed to combine Lapland tradition, modern comfort and the pure nature of the Arctic Circle for a relaxing stay away from the hustle and bustle of the hectic city life.",
+			"info":
+				{
+					"providedBy": "Glass Resort",
+					"connect": [
+						"info@glassresort.fi",
+						"+358405194444"
+					],
+					"address": [
+						{"addr": "Tähtikuja 16, 96930 Rovaniemi"},
+						{"Glassresort.fi": "https://glassresort.fi/"}
+					]
+				}
+			,
+			"tags": [
+				"Santa Claus Village", "Hotels", "Glass igloos", "Holiday villages",
+				"Glass Resort", "Special accommodation", "Sustainable accommodation",
+				"Accommodation in Santa Claus Village"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif",
+				"03.avif",
+				"04.avif",
+				"05.avif",
+				"06.avif"
+			]
+		},
+		{
+			"index": 15,
+			"type": "Holiday villages",
+			"name": "Fishing Center Simojoen Lohiranta",
+			"about": "Fishing Center Simojoen Lohiranta is located on the river Simojoki, close to the best fishing spots of the river. The distance from the main road E4 is 20 kilometers, from Oulu 100 kilometers and from Rovaniemi 120 kilometers.",
+			"info":
+				{
+					"providedBy": "Fishing Center Simojoen Lohiranta",
+					"connect": [
+						"info@simojoen-lohiranta.fi",
+						"+358 40 0691 351",
+						"+358 40 0394 066"
+					],
+					"address": [
+						{"addr": "Ranuantie 219b, 95255 Alaniemi"},
+						{"Simojoen-lohiranta.fi": "https://www.simojoen-lohiranta.fi/"}
+					]
+				}
+			,
+			"tags": [
+				"Holiday villages", "Fishing Center Simojoen Lohiranta", 
+				"Accommodation outside Rovaniemi", "Accommodation",
+				"Cottages", "Apartments"
+			],
+			"images": [
+				"01.jpg",
+				"02.jpg",
+				"03.jpg",
+				"04.jpg",
+				"05.jpg"
+			]
+		},
+		{
+			"index": 16,
+			"type": "Special accommodation",
+			"name": "Octola Private Wilderness",
+			"about": "Octola is the most exclusive five star luxury accommodation in Lapland, Finland and Arctic region with its own private wilderness and wildlife.",
+			"info":
+				{
+					"providedBy": "Luxury Action - Private Travel",
+					"connect": [
+						"janne@octola.com",
+						"+358 44 515 1796"
+					],
+					"address": [
+						{"Octola.com": "https://octola.com/"}
+					]
+				}
+			,
+			"tags": [
+				"Octola", "Special accommodation", "Accommodation in vicinity (10-100 km)",
+				"Accommodation", "Cottages", "Hotels", "uxury Action"
+			],
+			"images": [
+				"01.jpg",
+				"02.avif",
+				"03.avif",
+				"04.avif",
+				"05.avif",
+				"06.avif",
+				"07.avif"
+			]
+		},
+		{
+			"index": 17,
+			"type": "Hostels and guesthouses",
+			"name": "Guesthouse Borealis",
+			"about": "Guesthouse Borealis is an affordable and friendly, B&B accommodation run by a local family where all the family members take good care of their guests.",
+			"info":
+				{
+					"providedBy": "Guesthouse Borealis",
+					"connect": [
+						"info@guesthouseborealis.com",
+						"+358 44 313 1771"
+					],
+					"address": [
+						{"addr": "Asemieskatu 1, 96100 Rovaniemi"},
+						{"Guesthouseborealis.com": "https://www.guesthouseborealis.com/en/"}
+					]
+				}
+			,
+			"tags": [
+				"B&Bs and apartments", "Accommodation in the city centre",
+				"Accommodation", "Apartments", "Guesthouses",
+				"Guesthouse Borealis"
+			],
+			"images": [
+				"01.jpg",
+				"02.jpg",
+				"03.jpg"
+			]
+		},
+		{
+			"index": 18,
+			"type": "Accommodation outside Rovaniemi",
+			"name": "Kätkä Lake Lodge",
+			"about": "Kätkä Lake Lodge is the smallest hotel in Lapland, for people who want the peace and quiet of nature. Our hotel is located on the shore of Lake Kätkäjärvi and the wonderful nature trail of Kätkävaara starts from our yard.",
+			"info":
+				{
+					"providedBy": "Kätkä Lake Lodge",
+					"connect": [
+						"info@katka.fi",
+						"+358 40 197 7749"
+					],
+					"address": [
+						{"addr": "Leiri-Kätkä 74, 95330 Tervola"},
+						{"Katka.fi": "https://www.katka.fi/eng"}
+					]
+				}
+			,
+			"tags": [
+				"Accommodation", "Cottages", "Hotels",
+				"Accommodation outside Rovaniemi", "Kätkä Lake Lodge"
+			],
+			"images": [
+				"01.jpg",
+				"02.jpg",
+				"03.jpg",
+				"04.jpg"
+			]
+		}
+	]
+}
