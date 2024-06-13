@@ -1,0 +1,108 @@
+/* 모든 서브의 공통 */
+/* content_area */
+#content .content_area{font-size: 1.125rem;}
+
+/* visual */
+.visual{width: 2000px; height: 400px; background: #11a691; color: #fff;}
+.visual span{font-size: 1.875rem; display: block; position: absolute; bottom: 108px; left: 0;
+    width: 100%; text-align: center; transform: translateY(50%);}
+
+/* sub_nav */
+.sub_nav{width: 100%; border-bottom: 1px solid #ccc;}
+.sub_nav ul{width: 1300px; margin: 0 auto; text-align: center; overflow: hidden;}
+.sub_nav li{float: left;}
+.sub_nav li a{font-size: 1.125rem; font-weight: 600; padding: 15px 0;}
+.sub_nav li a:hover{border-bottom: 3px solid #11a691; color: #11a691;}
+.sub_nav li .current{color: #11a691; border-bottom: 3px solid #11a691;}
+
+/* title_area */
+#content .title_area{width: 2000px; height: 580px; position: relative; text-align: center;
+    overflow: hidden;}
+#content .title_area::after{
+    content: '';
+    width: 100%; height: 80px;
+    position: absolute; bottom: 0; left: 0;
+    background: url(../images/title_bg_bottom.png);
+}
+#content .title_area .line_map{display: inline-block; padding: 15px 30px;
+    border: 1px solid #fff; line-height: 1rem; margin: 87px 0 50px 0;
+    background: rgba(255,255,255,.3); border-radius: 50px;}
+#content .title_area .line_map strong{color: #11a691;}
+#content .title_area .title_main h2{font-size: 3.75rem; line-height: 3.75rem;}
+#content .title_area .title_main p{display: inline-block; font-size: 1.5rem;
+    margin-top: 50px; padding: 50px; border-top: 2px solid #fff;}
+#content .title_area .title_main .title_bg{width: 250px; height: 14.5px;
+    background: #fff linear-gradient(45deg, rgba(0,255,219,.6) 0%, rgba(0,71,255,.6) 100%);
+    position: absolute; top: 50%; left: 50%; z-index: -10; transition: all .8s ease-in-out;
+    margin-left: -125px; margin-top: -7.25px;}
+
+/* content_area 영역 */
+#content .content_fit{width: 1300px; padding: 70px 0 200px 0; margin: 0 auto;}
+#content .content_wide{width: 2000px; position: relative; top: 0; left: 50%;
+    margin: 70px 0 0 -1000px;}
+#content .list_disc{list-style: disc;}
+#content .list_disc li{line-height: 2rem;}
+#content .list_disc li::marker{font-size: 0.8rem;}
+#content .content_area .content_section_title{height: 60px; line-height: 3.5rem; font-size: 2rem; color: #11a691;
+    font-weight: 500; margin-bottom: 40px; position: relative; padding-left: 70px;}
+#content .content_area .content_section_title::before{
+    content: '\ea35';
+    font-family: 'Material Symbols Outlined';
+    width: 60px; height: 60px; border-radius: 60px;
+    background: #11a691; color: #fff;
+    line-height: 3.75rem; text-align: center;
+    font-size: 2.75rem; font-variation-settings: 'wght' 200;
+    display: block;
+    position: absolute; top: 50%; left: 0;
+    transform: translateY(-50%);
+}
+
+/* 탭메뉴 스타일 */
+/* #content .content_area .tab_content:not(:first-of-type){display: none;} */
+#content .tab_content:not(.first){display: none;}
+#content .list_tab_area{width: 1300px; overflow: hidden; margin-bottom: 50px;}
+#content .list_tab_area li{float: left;}
+#content .list_tab_area a{font-size: 1.5rem; line-height: 1.5rem; padding: 20px 0;
+    font-weight: 600; text-align: center; border-bottom: 3px solid #f4f4f4; background: #f4f4f4;}
+#content .list_tab_area .current{color: #11a691; border-bottom: 3px solid #11a691;}
+#content .list_tab_area a:hover{border-bottom: 3px solid #11a691;}
+
+/* modal 모달 - 기본 스타일(세부 스타일은 각 페이지에서) */
+#content .modal{position: fixed; z-index: 100; top: 0; left: 0; 
+    width: 100%; height: 100%; background: rgba(0,0,0,.7); overflow: hidden;
+    display: none;}
+#content .modal_popup{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 1200px; height: 700px; background: #fff; border-radius: 10px;}
+#content .modal_popup .modal_content{overflow-y: scroll; overflow-x: hidden; padding: 50px 40px 50px 50px;
+    width: 100%; height: 100%;}
+#content .modal_popup .modal_content .title{font-size: 2.5rem; margin-bottom: 30px;
+    border-bottom: 1px solid #ddd; padding-bottom: 20px;}
+#content .modal_popup .modal_content .root{color: #888; font-size: 1rem; margin-bottom: 5px;}
+#content .modal_popup .modal_close{position: absolute; top: 10px; left: 100%;
+    background: #11a691; color: #fff; font-size: 1.5rem; width: 50px; height: 50px;}
+#content .modal_popup .modal_close i{position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);}
+
+/* ===== Scrollbar CSS ===== */
+#content .modal_popup .modal_content::-webkit-scrollbar {
+    width: 20px;
+}
+#content .modal_popup .modal_content::-webkit-scrollbar-track { 
+    width: 16px;
+    background-color: #eee;
+}
+#content .modal_popup .modal_content::-webkit-scrollbar-thumb { 
+    background-color: #11a691;
+}
+#content .modal_popup .modal_content::-webkit-scrollbar-button {
+    display: none;
+}
+#content .modal_popup .modal_content::-webkit-scrollbar-track,
+#content .modal_popup .modal_content::-webkit-scrollbar-thumb { /* 코너에 라운드 효과 */
+    background-clip: content-box;
+    border: 4px solid transparent;
+    border-radius: 20px;
+}
+
+/* modal a태그 영역 */
+#content .modal_open{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}

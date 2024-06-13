@@ -1,0 +1,41 @@
+.search_form{background: #f3f3f3; padding: 40px 30px; margin-bottom: 50px;
+	overflow: hidden;}
+.search_form input{float: left; width: 90%; padding: 0 30px; font-size: 1.25rem;
+	height: 70px; border-radius: 35px 0 0 35px; border: none;}
+.search_form button{float: right; width: 10%; height: 100%; height: 70px;
+	border-radius: 0 35px 35px 0; border: none; cursor: pointer;
+	background: #11a691; color: #fff; font-size: 1.25rem; font-weight: 600;}
+
+.total_form{display: flex; justify-content: space-between; margin-bottom: 20px;
+	align-items: center; padding: 0 5px;}
+.total_form>li:nth-child(1){font-size: 1.5rem;}
+.total_form .total_count{font-weight: 600;}
+.total_form ul{overflow: hidden;}
+.total_form ul li{display: inline-block;}
+.total_form ul li a{display: inline-block;}
+.total_form ul li:not(:last-child)::after{
+	display: inline-block;
+	content: 'ㅣ';
+	margin: 0 10px;
+	color: #888;
+}
+.total_form ul li a.current{color: #11a691; font-weight: 500; text-decoration: underline;}
+
+.cardx4_container{width: 100%; display: flex; flex-wrap: wrap;}
+.cardx4_container li{width: 25%; position: relative; padding: 5px; margin-bottom: 20px;}
+.cardx4_container img{width: 100%; height: 300px; object-fit: cover; object-position: center;
+	position: relative; top: 0; left: 50%; transform: translateX(-50%); border-radius: 10px;
+	margin-bottom: 10px;}
+.cardx4_container span{display: block; margin-bottom: 3px;}
+.cardx4_container .num, .cardx4_container .type{font-size: 1rem; color: #888;}
+.cardx4_container .title{font-size: 1.75rem; font-weight: 500; white-space: nowrap;
+	text-overflow: ellipsis; word-break: break-all; overflow: hidden;}
+
+.search_null{background: #f3f3f3; padding: 50px; width: 100%; text-align: center;}
+
+/* 서브5의 모달 */
+.modal .body img{width: 100%;}
+.modal .info_wrap{background: rgba(255,166,0,.2); padding: 30px; margin-top: 30px;
+	border-radius: 20px;}
+.modal .info_wrap p{line-height: 2rem;}
+.modal .info_wrap p span{font-weight: 600; width: 150px;}

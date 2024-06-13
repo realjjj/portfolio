@@ -1,0 +1,15 @@
+#content .content_area>div{overflow: hidden; height: 400px; margin-bottom: 100px;}
+#content .content_area>div div{float: left; width: 800px;}
+#content .content_area>div div p:nth-of-type(1){font-size: 2.5rem; font-weight: 500; color: #11a691;
+    margin-bottom: 30px;}
+#content .content_area>div div p:nth-of-type(2){line-height: 2rem; text-align: justify;}
+#content .content_area>div div p:nth-of-type(2) strong{display: block;
+    margin-top: 30px; font-size: 1.25rem;}
+#content .content_area>div img{width: 450px; height: 400px; float: right;
+    border-radius: 20px;}
+#content .content_area ul{display: flex; flex-wrap: wrap; gap: 50px 20px;}
+#content .content_area ul li{width: calc((100% - 40px) / 3); height: 350px;}
+#content .content_area ul li img{width: 100%; margin-bottom: 20px;}
+#content .content_area ul li dt{font-size: 1.5rem; font-weight: 500; color: #11a691;
+    margin-bottom: 5px;}
+#content .content_area ul li dd{color: #888;}

@@ -1,0 +1,67 @@
+/* 단체관람예약&안내 css */
+/* 탭 공통 */
+#content .list_tab_area li{width: 50%;}
+#content .tab_content .material-symbols-outlined{float: left;}
+#content .tab_content p{overflow: hidden;}
+#content .tab_content strong{color: #11a691; font-weight: 500;}
+#content .tab_content>ul>li{border-bottom: 1px solid #ccc; margin-bottom: 150px; padding-bottom: 150px;}
+#content .tab_content>ul>li:last-child{border: none; margin: 0; padding: 0;}
+#content .tab_content .tab_content_section{overflow: hidden; margin-top: 100px;}
+#content .tab_content .tab_content_section:first-of-type{margin: 0;}
+#content .tab_content .text_area{width: 700px;}
+#content .tab_content .list_disc{padding-left: 50px;}
+#content .tab_content .img_area{width: 950px; height: 400px;}
+#content .tab_content .img_area{padding: 0 30px;}
+#content .tab_content .img_area img{width: 890px; height: 400px; border-radius: 20px;}
+#content .tab_content p{line-height: 2rem;}
+#content .tab_content .text_content_subtitle{font-size: 1.5rem; margin-bottom: 20px;}
+#content .tab_content .text_content_subtitle .material-symbols-outlined{color: #11a691;
+    font-size: 2rem; margin-right: 5px;}
+#content .tab_content .strong_div{position: relative; padding-right: 20px;
+    margin-right: 20px;}
+#content .tab_content .strong_div::after{
+    content: '';
+    position: absolute; top: 50%; right: 0;
+    transform: translateY(-50%);
+    height: 12px; border-right: 1px solid #333;
+}
+
+/* 탭1 - 예약안내 */
+#content .tab_content:nth-of-type(1) .tab_content_section{width: 1650px;}
+#content .tab_content:nth-of-type(1)>ul>li>div>*:nth-of-type(1){float: left;}
+#content .tab_content:nth-of-type(1)>ul>li>div>*:nth-of-type(2){float: right;}
+
+/* 전시설명 예약안내 */
+#content .tab_content:nth-of-type(1)>ul>li:nth-of-type(1) ul{margin-bottom: 20px;}
+#content .tab_content:nth-of-type(1)>ul>li:nth-of-type(1) p{margin-bottom: 10px;}
+#content .tab_content:nth-of-type(1)>ul>li:nth-of-type(1) .text_area .strong_div{font-size: 1.25rem;}
+
+/* 단체관람예약 및 안내 */
+#content .tab_content:nth-of-type(1)>ul>li:nth-of-type(2) .tab_content_section:nth-of-type(1){
+    transform: translateX(-350px);}
+
+
+/* 탭2 - 교육안내 */
+/* 단체교육안내 */
+#content .tab_content:nth-of-type(2) .list_disc li{margin-bottom: 20px;}
+#content .tab_content:nth-of-type(2) .list_disc li .strong_div{font-size: 1.25rem;}
+#content .tab_content:nth-of-type(2) .list_disc div{padding-left: 20px;}
+#content .tab_content:nth-of-type(2)>ul>li>div:nth-of-type(2){width: 2000px; height: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/sub2_2_4.jpg);
+    backdrop-filter: brightness(.4); color: #fff;
+    transform: translateX(-350px); margin: 50px 0; text-align: center; line-height: 9.375rem;
+    font-size: 1.25rem;
+}
+
+/* 운영프로그램 */
+#content .tab_content table{width: 1300px; text-align: center;}
+#content .tab_content table thead{border-top: 3px solid #11a691; border-bottom: 3px solid #11a691;}
+#content .tab_content table th, #content .tab_content table td{border: 1px solid #ccc; padding: 30px 10px;}
+#content .tab_content table th:nth-of-type(1){width: 20%;}
+#content .tab_content table th:nth-of-type(2){width: 20%;}
+#content .tab_content table th:nth-of-type(3){width: 10%;}
+#content .tab_content table th:nth-of-type(4){width: 50%;}
+#content .tab_content table tr td:first-of-type, #content .tab_content table tr th:first-of-type{border-left: none;}
+#content .tab_content table tr td:last-of-type, #content .tab_content table tr th:last-of-type{border-right: none;}
+#content .tab_content:nth-of-type(2)>ul>li:nth-of-type(2) li{margin-bottom: 100px;}
+#content .tab_content:nth-of-type(2)>ul>li:nth-of-type(2) li:last-child{margin: 0;}

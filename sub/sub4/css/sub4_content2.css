@@ -1,0 +1,17 @@
+#content{line-height: 2rem;}
+#content .content_area>div:not(:last-of-type){border-bottom: 1px solid #ccc; margin-bottom: 80px;
+    padding-bottom: 80px;}
+#content .content_section_title+div p{margin-bottom: 20px; text-align: justify;}
+#content strong{font-weight: 600; color: #11a691;}
+#content .file_downloader{background: #111; color: #fff; padding: 20px 0;
+	border-radius: 10px; width: 300px; margin: 60px auto 0 auto; text-align: center;}
+
+#content table{width: 100%; margin-top: 50px;
+	border-top: 3px solid #333; border-bottom: 3px solid #333;}
+#content table th, #content table td{
+	padding: 20px 0; border: 1px solid #ccc;
+}
+#content table th{width: 20%; background: #f3f3f3;
+	border-left: none;}
+#content table td{width: 80%; text-align: center;
+	border-right: none;}

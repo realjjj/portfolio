@@ -1,0 +1,9 @@
+/* 서브2 관람정보의 공통 css */
+
+/* visual */
+.visual{background: url(../images/sub3_vis.jpg);}
+
+/* sub_nav */
+.sub_nav li{width: 33.33%;}
+
+

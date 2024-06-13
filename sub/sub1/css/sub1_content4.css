@@ -1,0 +1,41 @@
+/* 인사말의 실제 본문 내용 css */
+
+/* 컨텐츠 공통 */
+#content .content_area dl{text-align: center; padding: 50px 0;}
+#content .content_area dt{font-size: 2rem; font-weight: 500; margin-bottom: 20px;}
+#content .content_area dd{line-height: 2rem;}
+
+/* merbership_area 전용 */
+#content .membership_area{width: 100%; height: 700px; position: relative;
+    background: url(../images/sub1_4.jpg); background-attachment: fixed; margin-bottom: 100px;}
+#content .membership_area ul{position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%); overflow: hidden; width: 1150px;}
+#content .membership_area li{width: 550px; height: 400px; background: rgba(0,0,0,.2);
+    backdrop-filter: blur(15px); color: #fff; border-radius: 20px; overflow: hidden;
+    border: 1px solid rgba(255,255,255,.5); padding: 100px 50px 0 50px;}
+#content .membership_area li:first-of-type{float: left;}
+#content .membership_area li:last-of-type{float: right;}
+#content .membership_area dl{position: relative; padding: 0;}
+#content .membership_area dt{margin-bottom: 60px;}
+#content .membership_area dt::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #11a691;
+    width: 150px; height: 1px;
+    position: absolute; top: 72px; left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 그 외 전용 */
+#content .content_area>div:nth-of-type(2), #content .content_area>div:nth-of-type(3){
+    width: 1650px; background: #eee; margin-bottom: 50px;
+}
+#content .content_area>div:nth-of-type(2){float: left; border-radius: 0 200px 200px 0; padding-left: 350px;}
+#content .content_area>div:nth-of-type(3){float: right; border-radius: 200px 0 0 200px; padding-right: 350px;}
+#content .content_area>div:nth-of-type(4){clear: both; border-radius: 100px 100px 0 0;
+    width: 1300px; height: 700px; margin: 0 auto; background: linear-gradient(90deg, rgba(0,255,219,.3) 0%, rgba(0,71,255,.3) 100%);
+    text-align: center;}
+#content .content_area>div:nth-of-type(4) dl{padding: 120px 0 30px 0;}
+#content .content_area>div:nth-of-type(4) span{margin-bottom: 150px;}
+#content .content_area>div:nth-of-type(4) a{width: fit-content; font-size: 1.5rem; padding: 40px 100px; background: #000;
+    color: #fff; border-radius: 100px; margin: 0 auto;}

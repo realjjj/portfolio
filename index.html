@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이화여자대학교 자연사박물관</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/mainlayout.css">
+    <!-- <script src="./common/js/prefixfree.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/5e3c8f85ca.js" crossorigin="anonymous"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+</head>
+<body>
+    <? include './common/main_header.html' ?>
+        <div class="visual horizental_center">
+            <div class="gallery">
+                <ul>
+                    <li class="link1"><img src="./mainimages/vis_01.jpg" alt=''>
+                        <div>
+                            <span>With History</span>
+                            <span>"역사와 함께합니다"</span>
+                        </div>
+                    </li>
+                    <li class="link2"><img src="./mainimages/vis_02.jpg" alt=''>
+                        <div>
+                            <span>With Nature</span>
+                            <span>"자연과 함께합니다"</span>
+                        </div>
+                    </li>
+                    <li class="link3"><img src="./mainimages/vis_03.jpg" alt=''>
+                        <div>
+                            <span>With Future</span>
+                            <span>"미래와 함께합니다"</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="dock">
+                <span class="btn btnLeft"><span class="hidden">이전</span><i class="fa-solid fa-chevron-left"></i></span>
+                <div class="dock_btn_area">
+                    <span class="mbutton btn1 current_mbutton"></span>
+                    <span class="mbutton btn2"></span>
+                    <span class="mbutton btn3"></span>
+                </div>
+                <span class="btn btnRight"><span class="hidden">다음</span><i class="fa-solid fa-chevron-right"></i>
+                </span><span class="ps"><span class="hidden">정지</span><i class="fa-solid fa-circle-pause"></i></span>
+            </div>
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">본문 콘텐츠 영역</h2>
+            <section class="info horizental_center">
+                <div class="default_container"> 
+                    <div>
+                        <h3>박물관 보려면?</h3>
+                        <p>관람 정보를 알려드립니다.</p> 
+                        <ul>
+                            <li># <span class="text_highlight">2월 13일 오늘은 박물관 관람 가능!</span></li>
+                            <li># <span class="text_highlight">관람시간</span>은 월-토 10:00 ~ 16:00 </li>
+                            <li># <span class="text_highlight">휴관일</span>은 토요일(1,2,7,8월), 일요일, 공휴일 </li>
+                            <li># <span class="text_highlight">관람료</span>는 무료!</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img class="all_center" src="./mainimages/info.jpg" alt="">
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="./sub/sub2/sub2_1.html">자세히 보기</a></li>
+                            <li><a href="./sub/sub2/sub2_3.html">오시는 길</a></li>
+                            <li><a href="./sub/sub2/sub2_2.html">단체예약</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </section>
+            <section class="exhibit horizental_center">
+                <div class="section_title_shape">
+                    <h3>지금 진행되는 <span class="text_highlight">특별한 전시</span>는?</h3>
+                    <p>기획전시 정보를 알려드립니다.</p>
+                </div>
+                <ul>
+                    <!-- data: main.js의 exhibitData -->
+                </ul>
+                <div class="prev_next">
+                    <a href="#" class="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                    <a href="#" class="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                <a class="more_btn" href="./sub/sub3/sub3_1.html">
+                    더보기<span class="material-symbols-outlined">add</span>
+                </a>
+            </section>
+            <section class="education">
+                <div class="default_container">
+                    <h3>참여 가능한 <span class="text_highlight">프로그램</span>은?</h3>
+                    <p>참여 가능한 교육 프로그램을 알려드립니다.</p>
+
+					<div class="swiper-container">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="#">
+									<img src="" alt="">
+									<div>
+										<p>동해물과 백두산이 마르고 닳도록</p>
+										<p><span># 대상</span>블라</p>
+										<p><span># 수강료</span>블라블라</p>
+										<p><span># 접수기간</span>0000.00.00 ~ 0000.00.00</p>
+										<p><span># 수업일</span>0000.00.00</p>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<img src="" alt="">
+								<div>
+									<p>타이틀</p>
+									<p><span># 대상</span></p>
+									<p><span># 수강료</span></p>
+									<p><span># 접수기간</span></p>
+									<p><span># 수업일</span></p>
+								</div>
+							</li>
+							<li class="swiper-slide">
+								<img src="" alt="">
+								<div>
+									<p>타이틀</p>
+									<p><span># 대상</span></p>
+									<p><span># 수강료</span></p>
+									<p><span># 접수기간</span></p>
+									<p><span># 수업일</span></p>
+								</div>
+							</li>
+							<li class="swiper-slide">
+								<img src="" alt="">
+								<div>
+									<p>타이틀</p>
+									<p><span># 대상</span></p>
+									<p><span># 수강료</span></p>
+									<p><span># 접수기간</span></p>
+									<p><span># 수업일</span></p>
+								</div>
+							</li>
+						</ul>
+						<!-- Add Arrows -->
+						<div>
+							<div class="swiper-button-next"></div>
+							<span>더보기</span>
+							<div class="swiper-button-prev"></div>
+						</div>
+					</div>
+                </div>
+            </section>
+            <section class="specimen horizental_center">
+                <div class="section_title_shape">
+                    <h3>만날 수 있는 <span class="text_highlight">표본</span>은?</h3>
+                    <p>상설 표본 미리보기입니다.</p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./mainimages/specimen_01.jpg" alt="">
+                            <dl>
+                                <dt>북극여우</dt>
+                                <dd>Vulpes lagopus</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./mainimages/specimen_01.jpg" alt="">
+                            <dl>
+                                <dt>북극여우</dt>
+                                <dd>Vulpes lagopus</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./mainimages/specimen_01.jpg" alt="">
+                            <dl>
+                                <dt>북극여우</dt>
+                                <dd>Vulpes lagopus</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./mainimages/specimen_01.jpg" alt="">
+                            <dl>
+                                <dt>북극여우</dt>
+                                <dd>Vulpes lagopus</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./mainimages/specimen_01.jpg" alt="">
+                            <dl>
+                                <dt>북극여우</dt>
+                                <dd>Vulpes lagopus</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./mainimages/specimen_01.jpg" alt="">
+                            <dl>
+                                <dt>북극여우</dt>
+                                <dd>Vulpes lagopus</dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+                <a class="more_btn" href="#">
+                    더보기<span class="material-symbols-outlined">add</span>
+                </a>
+                <div class="wave">
+                    <img src="./mainimages/wave.png" alt="">
+                </div>
+            </section>
+            <section class="notice">
+                <div class="default_container_m">
+                    <h3>박물관 <span class="text_highlight">최근 소식</span>은?</h3>
+                    <p>박물관 공지사항을 알려드립니다.</p>
+                    <ul>
+                        <li class="box_shadow hover_highlight">
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        5층 상설전시실 휴관 안내(1월29일~2월2일) - 기획 전시실, 디오라마실 수리
+                                    </dt>
+                                    <dd>
+                                        안녕하세요. 자연사박물관 5층 상성전시실 조명공사를 위하여 2024년 1월 29일 (월) 
+                                        ~ 2월 2일(금) 동안 5층 상설전시실 휴관합니다. 4층 기획전시실의 기획전 ‘해양생물
+                                        다양성’과 디오라마실은 정상개관합니다. 좀 더 나은 관람 환경을 위해 시행하는 공사
+                                        이오니 많은 양해 부탁드립니다.
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="box_shadow hover_highlight">
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        5층 상설전시실 휴관 안내(1월29일~2월2일) - 기획 전시실, 디오라마실 수리
+                                    </dt>
+                                    <dd>
+                                        안녕하세요. 자연사박물관 5층 상성전시실 조명공사를 위하여 2024년 1월 29일 (월) 
+                                        ~ 2월 2일(금) 동안 5층 상설전시실 휴관합니다. 4층 기획전시실의 기획전 ‘해양생물
+                                        다양성’과 디오라마실은 정상개관합니다. 좀 더 나은 관람 환경을 위해 시행하는 공사
+                                        이오니 많은 양해 부탁드립니다.
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="box_shadow hover_highlight">
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        5층 상설전시실 휴관 안내(1월29일~2월2일) - 기획 전시실, 디오라마실 수리
+                                    </dt>
+                                    <dd>
+                                        안녕하세요. 자연사박물관 5층 상성전시실 조명공사를 위하여 2024년 1월 29일 (월) 
+                                        ~ 2월 2일(금) 동안 5층 상설전시실 휴관합니다. 4층 기획전시실의 기획전 ‘해양생물
+                                        다양성’과 디오라마실은 정상개관합니다. 좀 더 나은 관람 환경을 위해 시행하는 공사
+                                        이오니 많은 양해 부탁드립니다.
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="box_shadow hover_highlight">
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        5층 상설전시실 휴관 안내(1월29일~2월2일) - 기획 전시실, 디오라마실 수리
+                                    </dt>
+                                    <dd>
+                                        안녕하세요. 자연사박물관 5층 상성전시실 조명공사를 위하여 2024년 1월 29일 (월) 
+                                        ~ 2월 2일(금) 동안 5층 상설전시실 휴관합니다. 4층 기획전시실의 기획전 ‘해양생물
+                                        다양성’과 디오라마실은 정상개관합니다. 좀 더 나은 관람 환경을 위해 시행하는 공사
+                                        이오니 많은 양해 부탁드립니다.
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="box_shadow hover_highlight">
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        5층 상설전시실 휴관 안내(1월29일~2월2일) - 기획 전시실, 디오라마실 수리
+                                    </dt>
+                                    <dd>
+                                        안녕하세요. 자연사박물관 5층 상성전시실 조명공사를 위하여 2024년 1월 29일 (월) 
+                                        ~ 2월 2일(금) 동안 5층 상설전시실 휴관합니다. 4층 기획전시실의 기획전 ‘해양생물
+                                        다양성’과 디오라마실은 정상개관합니다. 좀 더 나은 관람 환경을 위해 시행하는 공사
+                                        이오니 많은 양해 부탁드립니다.
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li class="box_shadow hover_highlight">
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        5층 상설전시실 휴관 안내(1월29일~2월2일) - 기획 전시실, 디오라마실 수리
+                                    </dt>
+                                    <dd>
+                                        안녕하세요. 자연사박물관 5층 상성전시실 조명공사를 위하여 2024년 1월 29일 (월) 
+                                        ~ 2월 2일(금) 동안 5층 상설전시실 휴관합니다. 4층 기획전시실의 기획전 ‘해양생물
+                                        다양성’과 디오라마실은 정상개관합니다. 좀 더 나은 관람 환경을 위해 시행하는 공사
+                                        이오니 많은 양해 부탁드립니다.
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="more_btn" href="#">
+                        더보기<span class="material-symbols-outlined">add</span>
+                    </a>
+                </div>
+            </section>
+        </article>
+    <? include './common/main_footer.html' ?>
+    <script src="./mainjs/move.js"></script>
+    <script src="./mainjs/main.js"></script>
+	<script src="./mainjs/swiper.min.js"></script>
+
+    <!-- 메인 팝업(광고/이벤트/공지) -->
+    <div id="showimage" style="z-index:90;position:absolute;width:322px;left:50%;top:250px;margin-left:-800px;">
+        <script>
+            function closeWin(){
+                var chk = document.getElementById('Notice')
+                if ( chk.checked ) {
+                    setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if ( getCookie( "Notice" ) == "done" ) {
+                hidebox();
+            }
+        </script>
+        <div>
+            <img src="./popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+        </div>
+        <div style="font-size:12px;text-align:center;color:#fff;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+            <a href="#" style="color: #fff;" onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+    </div>
+</body>
+</html>

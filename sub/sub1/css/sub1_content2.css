@@ -1,0 +1,9 @@
+/* 인사말의 실제 본문 내용 css */
+#content .content_area .image_area{width: 100%; height: 700px; margin-bottom: 70px;}
+#content .content_area .image_area img{display: block; width: 32.66%; height: 100%;
+    float: left; margin-right: 1%;}
+#content .content_area .image_area img:last-of-type{margin-right: 0;}
+#content .content_area p{line-height: 2rem; margin-bottom: 50px;}
+#content .content_area p:first-of-type, #content .content_area p:last-of-type{font-size: 2.5rem; color: #11a691;
+    line-height: 3.5rem; font-weight: 500; letter-spacing: -.5px;}
+#content .content_area p:last-of-type{margin-bottom: 0;}

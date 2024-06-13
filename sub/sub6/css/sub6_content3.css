@@ -1,0 +1,26 @@
+#content .list_tab_area li{width: 20%;}
+
+#content .faq li:first-child{border-top: 2px solid #111;}
+#content .faq .q, #content .faq .a{border-bottom: 1px solid #ccc;}
+#content .faq .q{overflow: hidden; padding: 30px 20px;}
+#content .faq .q span{display: block; float: left;}
+#content .faq .q span:first-of-type{width: 250px; font-size: .95rem;}
+#content .faq .q span:nth-of-type(2){font-weight: 600;}
+#content .faq .q i{transition: all .2s ease-out;}
+#content .faq .q span:nth-of-type(2)::before{
+    content: '\3f';
+    font-family: 'fontAwesome';
+    margin-right: 15px;
+    color: #11a691;
+}
+#content .faq .q span:last-of-type{display: block; float: right;}
+#content .faq .a{background: #f8f8f8; display: none; padding: 40px;}
+/* #content .faq .a::before{
+    content: '\f27a';
+    font-family: 'fontAwesome';
+    margin-right: 15px;
+    color: #11a691;
+    font-size: 1.25rem;
+} */
+#content .faq .a p{line-height: 2rem;}
+#content .faq .a a{color: #11a691; font-weight: 500;}

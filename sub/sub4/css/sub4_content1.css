@@ -1,0 +1,79 @@
+#content .list_tab_area li{width: 50%;}
+
+#content .content_section_title+div p{line-height: 2rem; margin-bottom: 20px;}
+#content .content_section_title+div p strong{color: #11a691;}
+#content .content_section_title+div img{margin: 50px 0 100px 0;}
+
+#content table{width: 100%;}
+#content .tab_content:nth-of-type(1) table{border-spacing: 0 20px; border-collapse: separate;}
+#content table strong{font-weight: 600;}
+#content table thead th{border-top: 2px solid #111; border-bottom: 2px solid #111;
+    background: #f8f8f8; padding: 20px 0;}
+#content .tab_content:nth-of-type(1) table tbody{overflow: hidden;}
+#content .tab_content:nth-of-type(1) table tbody tr{box-shadow: 0 0px 5px rgba(0,0,0,.2); border-radius: 10px; overflow: hidden;
+    position: relative; transition: all .2s ease-out;}
+#content .tab_content:nth-of-type(1) table tbody tr:hover{box-shadow: 0 0 8px rgba(17,166,145,.7);}
+#content .tab_content:nth-of-type(1) table tbody tr.closed{background: #f3f3f3;}
+#content .tab_content:nth-of-type(1) table td{text-align: center; padding: 40px 10px;}
+#content .tab_content:nth-of-type(1) table td:first-child{border-radius: 10px 0 0 10px;}
+#content .tab_content:nth-of-type(1) table td:nth-last-child(2){border-radius: 0 10px 10px 0;}
+#content .tab_content:nth-of-type(1) table td:last-child{padding: 0;}
+#content table td.idx{width: 8%; color: #999;}
+#content table td.tit{width: 34%; font-weight: 600;}
+#content .tab_content:nth-of-type(1) table td:nth-of-type(3){width: 10%;}
+#content .tab_content:nth-of-type(1) table td:nth-of-type(4){width: 8%;}
+#content .tab_content:nth-of-type(1) table td:nth-of-type(5){width: 10%;}
+#content .tab_content:nth-of-type(1) table td:nth-of-type(6){width: 15%;}
+#content .tab_content:nth-of-type(1) table td:nth-of-type(7){width: 15%;}
+#content table td span{color: #11a691;}
+#content table tbody tr.closed td span{color: #333;}
+
+#content .ctgr_tab{overflow: hidden; margin-bottom: 20px;}
+#content .ctgr_tab li{float: left; margin-right: 20px;}
+#content .ctgr_tab li a{padding: 10px 30px; background: #333; color: #fff; border-radius: 50px;}
+#content .ctgr_tab li a.current{background: #11a691; color: #fff;}
+
+/* 서브4_1의 모달 스타일 */
+#content .modal .info span{border: 1px solid #ddd; padding: 10px 20px; border-radius: 50px;
+    margin: 0 10px 10px 0;}
+#content .modal .info strong{margin-right: 10px; color: #11a691; font-weight: 400;}
+#content .modal .body{margin-top: 30px;}
+#content .modal .body p{line-height: 2rem;}
+#content .modal .body strong{font-weight: 600;}
+#content .modal .body .body_title span{background: rgba(255,165,0,.2); margin: 0 5px;}
+#content .modal .body .body_title::before, #content .modal .body .body_title::after{
+    content: '\f005';
+    font-family: 'fontAwesome';
+    color: orange;
+}
+#content .modal .edu_join{background: #111; color: #fff; width: 300px; padding: 25px 0;
+    margin: 0 auto; text-align: center; border-radius: 50px; transition: all .2s ease-out;
+    margin-top: 80px;}
+#content .modal .edu_join:hover{background: #11a691;}
+
+/* tab 2 */
+#content .tab_content:nth-of-type(2) dl{margin-bottom: 30px; line-height: 2rem;}
+#content .tab_content:nth-of-type(2) tbody tr{border-bottom: 1px solid #ccc;}
+#content .tab_content:nth-of-type(2) tbody td{padding: 25px 10px; text-align: center;}
+#content .tab_content:nth-of-type(2) input[type="checkbox"]{width: 20px; height: 20px;}
+#content .tab_content:nth-of-type(2) label{padding: 25px 0;}
+#content .cancel_edu{background: red; color: #fff; padding: 10px 0px; text-align: center;
+    border-radius: 10px; width: 120px; margin: 0 auto;}
+#content .cancel_form_container{width: 100%; border-radius: 20px;
+    margin-top: 30px; padding: 30px; background: #eee;}
+#content .cancel_form_container span{width: 15%; font-weight: 600;}
+#content .cancel_form_container input{width: 85%; margin-bottom: 30px; border-radius: 10px; 
+    border: none; font-size: 1.125rem; padding: 15px;}
+#content .tab_content:nth-of-type(2) .modal_open{background: #111; color: #fff; padding: 10px 20px;
+    border-radius: 10px; text-align: center;}
+#content .cancel_form_container div:first-of-type{font-size: 2rem; font-weight: 500;
+    margin-bottom: 50px; text-align: center;}
+#content .cancel_form_container div:last-of-type{overflow: hidden; width: 500px; margin: 0 auto;
+    margin-top: 30px;}
+#content .cancel_btn:first-of-type{margin-right: 100px;}
+#content .cancel_btn{padding: 20px 40px; border-radius: 50px;
+    float: left; width: 200px; text-align: center; color: #fff; background: #111;
+    border: none; font-size: 1.125rem; cursor: pointer;}
+#content #eduTitle, #content #eduIdx{background: #ccc;}
+#content .after_cancel{padding: 10px 0; width: 120px; text-align: center; color: #333;
+    font-weight: 500;}

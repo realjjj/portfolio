@@ -1,0 +1,32 @@
+#headerArea{transition: opacity .2s ease-out;}
+
+/* 연혁의 실제 본문 내용 css */
+#content .list_tab_area{margin-bottom: 0; transition: all .3s ease-out;}
+#content .list_tab_area.active{position: fixed; top: 0; left: 0; z-index: 100; width: 100%;}
+#content .list_tab_area li{width: 25%;}
+
+#content #historyList{overflow: hidden; position: relative; margin-top: 50px;}
+#content #historyList .history_image_section{overflow: hidden; float: left; width: 500px; height: 700px;}
+#content #historyList .history_image_section ul{transition: all 0.4s ease-out;}
+#content #historyList .history_image_section li{width: 100%; height: 700px; overflow: hidden;}
+/* #content #historyList .history_image_section:hover li:nth-of-type(1){height: 0;}
+#content #historyList .history_image_section:hover li:nth-of-type(1) img{transform: translateY(-100px);} */
+#content #historyList img{width: 500px; height: 700px; transition: all 0.3s ease-out;}
+#content #historyList ol{float: right; width: 720px;}
+#content #historyList ol li{position: relative;}
+#content #historyList ol li div{position: absolute; top: 0; left: 0;
+    height: 100%; width: 12.5px; border-right: 1px solid #ccc;}
+#content #historyList ol li div span{width: 25px; height: 25px; border: 8px solid #ccc;
+    border-radius: 25px; position: absolute; top: 0; left: 0; background: #fff;}
+
+#content #historyList .history_current dt{color: #11a691;}
+#content #historyList .history_current div{border-right: 1px solid #11a691;}
+#content #historyList .history_current span{border: 8px solid #11a691;}
+#content #historyList .history_current strong{color: #11a691;}
+
+#content #historyList dl{margin-left: 25px; padding: 0 0 80px 70px;}
+#content #historyList dt{font-size: 3.125rem; line-height: 2.1rem; font-weight: 700;
+    margin-bottom: 40px; transition: all 0.3s ease-out;}
+#content #historyList dd{display: flex; align-items: center; line-height: 2.25rem;
+    padding: 10px 0;}
+#content #historyList dd strong{font-size: 1.5rem; margin: 0 40px; flex: none;}

@@ -1,0 +1,231 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@keyframes footprint{
+  from{
+    opacity: 0;
+  }
+  5%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  65%{
+    opacity: 0;
+  }
+  to{
+    opacity: 0;
+  }
+}
+@keyframes footprint2{
+  from{
+    opacity: 0;
+  }
+  20%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  65%{
+    opacity: 0;
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+/* font-family: "Noto Sans KR", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+html{font-size: 16px;}
+body{font-family: "Noto Sans KR", sans-serif; color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none; display: block;}
+img{border: 0; vertical-align: top}
+span{display: inline-block;}
+*{box-sizing: border-box;}
+h2, h3{font-family: "Noto Sans KR", sans-serif;}
+
+/* 구글 아이콘 */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+/* skipNav영역 */
+#skipNav{position:relative;width:100%;overflow:hidden; z-index: 110;}
+#skipNav a{height:1px; margin-bottom:-1px; overflow:hidden; 
+  text-align:center; color:#fff; font-size:1.2em; 
+  font-weight: 700;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{height:auto;padding:15px 0; 
+  background: rgba(239,0,16,1);}
+
+#wrap{width: 100%; overflow-x: hidden; font-size: 1rem;}
+
+
+/* header 공통영역 */
+#headerArea{width: 100%; position: fixed; left: 0; top: 0; z-index: 100;
+  /* transition: all .2s ease-out; */
+}
+#headerArea .header_container{width: 1300px; height: 100%; margin: 0 auto;}
+
+#headerArea .header_top{background: #000; width: 100%; height: 44px; overflow: hidden;
+  line-height: 42px;}
+#headerArea .header_top span{height: 100%; color: #fff;
+  float: left;}
+#headerArea .header_top ul{height: 100%; float: right; overflow: hidden;}
+#headerArea .header_top li{margin-right: 20px; float: left;}
+#headerArea .header_top li:last-child{margin-right: 0;}
+#headerArea .header_top a{color: #fff;}
+
+#headerArea .header_bottom{width: 100%; height: 140px;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  transition: all .1s ease-out;
+  backdrop-filter: blur(10px);
+}
+#headerArea .header_bottom a{color: #fff;}
+#headerArea .header_bottom .header_container>div:nth-of-type(1){height: 60px; overflow: hidden;}
+#headerArea .header_bottom .header_container>div:nth-of-type(2){height: 80px;}
+#headerArea .header_bottom .header_container>div:nth-of-type(1) ul{overflow: hidden; float: right; margin-top: 30px;}
+#headerArea .header_bottom .header_container>div:nth-of-type(1) li{float: left; margin-right: 20px;}
+#headerArea .header_bottom .header_container>div:nth-of-type(1) li:last-child{margin-right: 0;}
+#headerArea .logo a{width: 325px; height: 50px; text-indent: -999px; overflow: hidden; float: left;
+  background: url(../images/logo.png);}
+#headerArea .gnb{float: right; height: 100%;}
+#headerArea .gnb>ul{padding-top: 15px; height: 100%;}
+#headerArea .gnb>ul>li{float: left; height: 100%;}
+#headerArea .gnb>ul>li h3{height: 100%; font-size: 1.17rem;}
+#headerArea .gnb>ul>li h3 a{height: 100%; width: 155px; text-align: center; line-height: 3rem;}
+#headerArea .gnb>ul>li ul{text-align: center; display: none; height: 152px;}
+#headerArea .gnb>ul>li ul a{padding: 7px 0;}
+/* 헤더 액티브때 적용되는 클래스 */
+#headerArea.header_active {background: #fff; box-shadow: 0 0 5px rgba(0,0,0,.4);}
+#headerArea.header_active .header_bottom a{color: #333;}
+#headerArea.header_active .logo a{background: url(../images/logo_on.png);}
+#headerArea.header_active .menu:hover .depth1{color: #11a691;}
+#headerArea.header_active .menu ul a:hover{color: #11a691;}
+
+/* .header_bg_on .header_bottom .gnb>ul>li h3 a {color: #333; border: 1px solid red;} */
+/* #headerArea .logo .header_logo_on{background: url(../images/logo_on.png);} */
+
+
+/* footer 공통영역 */ 
+#footerArea{width: 100%; height: 300px; background: #000;}
+#footerArea .default_container{overflow: visible;}
+/* 푸터메뉴&셀렉트 */
+#footerArea .default_container>div:nth-of-type(1){position: relative;}
+#footerArea .bottom_menu{height: 100%; font-size: 1.125rem; line-height: 1.125rem; 
+  overflow: hidden;}
+#footerArea .bottom_menu ul{overflow: hidden; height: 50px; margin-top: 50px;}
+#footerArea .bottom_menu li{float: left; margin-right: 65px;}
+#footerArea .bottom_menu li a{color: #fff; padding: 10px;}
+#footerArea .bottom_menu li a:first-of-type{padding-left: 0;}
+/* 패밀리 사이트 바로가기 */
+#footerArea .family{display: inline-block; border:1px solid #ccc;
+  position: absolute; bottom: 0; right: 0;}
+#footerArea .family .arrow{display:block; font-size:1em; padding: 10px 20px;
+  text-align: center; transition: all .5s; color: #fff;}
+#footerArea .family .arrow:hover{background: #fff; color: #333;}
+#footerArea .family .arrow i{font-size:1rem ; color: #11a691;}
+#footerArea .family .aList{position:absolute; bottom: 100%; left: -1px; width: 100%; 
+  box-sizing: content-box; border:1px solid #ccc; display:none; background: #fff;}
+#footerArea .family .aList li{line-height:1.5em; border-bottom:1px solid #ccc;}
+#footerArea .family .aList li a{display:block;text-align: center; padding: 5px 0; transition: all .2s;}
+#footerArea .family .aList li a:hover{color: #11a691;}
+/* #footerArea .family{position: absolute; bottom: 0; right: 0;} */
+/* #footerArea .family a{width: 220px; height: 50px; border-radius: 5px;
+  background: #fff; color: #333; text-align: center; line-height: 3.125rem;} */
+/* #footerArea .family .family_select{position: absolute; bottom: 70px; left: 0; display: none;} */
+/* EWHA~SNS */
+#footerArea .default_container>div:nth-of-type(2){overflow: hidden; color: #fff;
+  margin-top: 15px;}
+#footerArea .default_container>div:nth-of-type(2)>div{float: left;}
+#footerArea .default_container>div:nth-of-type(2)>div:nth-of-type(1){width: 700px;}
+#footerArea .default_container>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(1){
+  font-size: 1.5rem; line-height: 1.5rem;}
+#footerArea address{line-height: 1rem; overflow: hidden;}
+#footerArea address p{margin-top: 20px; margin-right: 20px;}
+#footerArea address p:nth-of-type(n+2){float: left;}
+#footerArea .copy{margin-top: 20px; font-size: 0.875rem; line-height: 0.875rem; color: #777;}
+#footerArea .sns{overflow: hidden; width: 600px;}
+#footerArea .sns ul{float: right;}
+#footerArea .sns li{float: left; margin-right: 20px;}
+#footerArea .sns li:last-of-type{margin-right: 0;}
+#footerArea .sns li a{height: 70px; float: left; overflow: hidden; line-height: 65px;
+  text-align: center; color: #fff;}
+#footerArea .sns li a span{text-indent: -999px;}
+#footerArea .sns img{height: 42px; margin-top: 6px;}
+#footerArea .sns i{font-size: 2.5rem;}
+#footerArea .sns li:nth-child(3) a{margin-top: -2px;}
+
+.move_top{color: #fff; text-align: center;
+  font-size: 1.125rem; position: fixed; left: 50%; margin-left: 700px;
+  bottom: 100px; display: none; flex-direction: column-reverse; overflow: hidden;}
+.move_top a{width: 95px; height: 110px; position: relative;}
+.move_top a img{transform: rotateZ(18deg);}
+.move_top a:hover img{content: url(../images/dinosaur_footprint_dark.png);}
+.move_top a span{color: #fff; position: absolute; left: 25px; bottom: 15px;
+  font-weight: 600;}
+.move_top span:nth-of-type(1) img{transform: rotateZ(-18deg); width: 40px; margin-right: 50px;
+  opacity: 0;}
+.move_top a:hover~span:nth-of-type(1) img{animation: 1.2s ease-out infinite footprint;}
+.move_top span:nth-of-type(2) img{transform: rotateZ(18deg); width: 20px; margin-left: 30px;
+  opacity: 0;}
+.move_top a:hover~span:nth-of-type(2) img{animation: 1.2s ease-out infinite footprint2;}
+
+
+/* 그 외 공통 */
+.default_container{width: 1300px; height: 100%; margin: 0 auto; overflow: hidden;}
+.default_container_m{width: 1350px; height: 100%; margin: 0 auto; overflow: hidden;}
+.horizental_center{position: relative; left: 50%; top: 0;
+  transform: translateX(-50%);}
+.vertical_center{position: relative; left: 0; top: 50%;
+  transform: translateY(-50%);}
+.all_center{position: relative; left: 50%; top: 50%;
+  transform: translate(-50%,-50%);}
+.text_highlight{color: #11a691;}
+.box_shadow{box-shadow: 0 0 15px rgba(0,0,0,.2);}
+
+
+
+
+
+
+
+
+
+
+
+

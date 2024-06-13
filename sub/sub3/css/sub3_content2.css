@@ -1,0 +1,48 @@
+/* 공통 */
+#content .content_area{position: relative;}
+/* content_area에 overflow hidden을 쓰기 어려워서 가상선택자를 이용해 float을 clear해주고 있다. */
+#content .content_area::after{ 
+    content: '';
+    display: block;
+    clear: both;
+}
+#content .vertical_tab{width: 200px; float: left; position: relative; top: 0;
+    border-left: 1px solid #333; font-weight: 500; font-size: 1.25rem;}
+#content .vertical_tab::before, #content .vertical_tab::after{
+    font-family: 'fontawesome';
+    font-size: 2rem;
+    position: absolute; right: 100%;
+    transform: translateX(50%);
+    color: #333;
+}
+#content .vertical_tab::before{content: '\f1e5'; top: -35px;}
+#content .vertical_tab::after{content: '\f188'; bottom: -35px;}
+#content .vertical_tab li{position: relative;}
+#content .vertical_tab li::before{
+    content: ''; 
+    position: absolute; top: 50%; left: 0;
+    width: 20px; height: 1px;
+    border-bottom: 1px solid #ccc;
+}
+#content .vertical_tab li::after{
+    content: '';
+    position: absolute; top: 50%; left: 20px;
+    transform: translateY(-25%);
+    width: 8px; height: 8px; border-radius: 8px;
+    background: #ccc;
+}
+#content .vertical_tab li a{padding: 20px 0 20px 40px;}
+#content .vertical_tab .current_corner::after{background: #11a691;}
+#content .vertical_tab .current_corner::before{border-bottom: 1px solid #11a691;}
+#content .vertical_tab .current_corner a{color: #11a691;}
+#content .vertical_tab li:hover a{color: #11a691;}
+
+
+#content .corner_list{width: 1050px; float: right; position: relative;}
+#content .corner_list li{width: 100%; border-bottom: 1px solid #ccc; padding: 100px 0;}
+#content .corner_list li:first-child{padding-top: 0;}
+#content .corner_list li:last-child{padding-bottom: 0; border: none;}
+#content .corner_list p, #content .corner_list dl{line-height: 2rem; margin-bottom: 50px;}
+#content .corner_list dt{color: #11a691; font-weight: 500; font-size: 1.25rem;}
+#content .corner_list img{margin: 0 auto; display: block; width: 700px; height: 270px;
+    margin-top: 50px; border-radius: 20px;}
