@@ -3,7 +3,7 @@
 	--pd_normal: 20px;
 	--pd_section: 55px;
 }
-#content{}
+#content img{width: 100%;}
 #content h3{font-size: 1.5rem; font-weight: 600; margin-bottom: 20px;}
 /* #content section{margin: 10px 0;} */
 #content .more_btn{border: 2px solid rgba(0,0,0,.2); color: #555;
@@ -14,7 +14,7 @@
 
 /* 비쥬얼 */
 .visual .swiper-slide img{min-height: calc(100vh - 50px); height: auto; object-fit: cover;
-	object-position: center;}
+	object-position: center; width: 100%;}
 .visual .swiper-slide div{position: absolute; bottom: 10%; left: 20px;
 	color: #fff;}
 .visual .swiper-slide span{display: block;}
