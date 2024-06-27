@@ -32,9 +32,9 @@ img { border: 0; vertical-align: top; width: 100%;}
 
 /* header */
 header { border-bottom: 1px solid #000; }
-header .image { border-radius: 50%; overflow: hidden; width: 30%;}
+header .image{width: 500px; height: 500px; border-radius: 500px; overflow: hidden;}
+header .image img{width: 100%; object-fit: cover; object-position: center;}
 header .head_main { display: flex; padding: 5% 10%; column-gap: 10%; align-items: center;}
-header .head_ttl {}
 header .head_ttl h2 { font-size: 8vw;}
 header .head_ttl span { display: block; font-size: 1.25em; font-weight: 100;}
 header .head_ttl strong { font-weight: 400;}
