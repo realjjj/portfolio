@@ -102,7 +102,7 @@
 						&:nth-of-type(1){display: flex; justify-content: space-between;
 							flex-wrap: wrap;
 
-							& label{width: 100%;}
+							& label{width: 50%;}
 							& input{width: calc(50% - 5px);}
 						}
 					}

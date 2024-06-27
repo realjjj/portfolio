@@ -159,7 +159,7 @@ p,li,dd{line-height:1.5em}
 	
 		}
 
-		& img{margin-bottom: -2px;}
+		& img{margin-bottom: -2px; width: 100%;}
 	
 		& .footer_content{width: 100vw; max-width: 2000px; box-sizing: border-box;
 			position: relative; left: 50%; transform: translateX(-50%);

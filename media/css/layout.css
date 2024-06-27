@@ -3,7 +3,7 @@
 	position: fixed; top: 200px; right: 100px; opacity: 0; z-index: 10;
 
 	& img{
-		filter: drop-shadow(0 0 5px rgba(0,148,255,.3));
+		filter: drop-shadow(0 0 5px rgba(0,148,255,.3)); width: 100%;
 	}
 }
 
@@ -139,6 +139,8 @@
 			& li{
 				flex: none; width: 330px; height: 420px; margin: 15px; background: #ccc;
 				position: relative;
+
+				& img{width: 100%;}
 
 				& div{position: absolute; left: 0; bottom: 0; 
 					background: linear-gradient(0deg, rgba(0,0,0,.4) 60%, rgba(0,0,0,0) 100%);
@@ -289,7 +291,7 @@
 				}
 			}
 
-			& img{height: 100%; object-fit: cover; object-position: center;
+			& img{height: 100%; width: 100%; object-fit: cover; object-position: center;
 				transition: .2s ease-out;}
 		}
 	}
