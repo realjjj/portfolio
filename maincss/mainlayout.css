@@ -121,7 +121,8 @@
 
 /* 본문 - 교육정보 */
 .education{width: 100%; background: #f3f3f3; overflow: hidden;}
-.education .swiper-container{margin: 0 auto; margin-top: 50px; padding: 5px;}
+.education .swiper-container{margin: 0 auto; padding: 5px; padding-top: 50px; 
+    position: relative;}
 .education .swiper-wrapper{display: flex;}
 .education .swiper-slide{flex: none; width: calc(25% - 15px);
 	box-shadow: 0 1px 5px rgba(0,0,0,.3); background: #fff; border-radius: 10px;}
@@ -135,7 +136,22 @@
 	color: #11a691;}
 .education .swiper-slide p span{color: #111; font-weight: 600; display: inline-block;
 	width: 85px;}
-
+.education .swiper-slide img{
+	width: 100%;
+}
+.education .edu_more{
+    position: absolute; bottom: 100%; right: 0; display: flex; gap: 20px;
+    align-items: center;
+}
+.education .edu_more a{
+    display: flex; align-items: center; justify-content: center;
+}
+.education .edu_more a:nth-of-type(2){
+    height: 50px; font-size: 1.125rem; font-weight: 600; color: #11a691;
+}
+.education .edu_more a:not(:nth-of-type(2)){
+    width: 50px; height: 50px; font-size: 1.5rem; color: #11a691;
+}
 
 
 /* .education .default_container_m>div{float: right;}
