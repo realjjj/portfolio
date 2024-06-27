@@ -102,7 +102,7 @@ window.addEventListener('load', loadE => {
 
 	// <- , -> 키 입력할 경우
 	document.addEventListener('keydown', keyE => {
-		if(location.href.split('#')[1] == 'firstPage' || location.href.split('.').slice(-1) == 'html') {
+		if(location.href.split('/')[4] == '#firstPage' || location.href.split('/')[4] == '') {
 			// console.log(keyE.key);
 	
 			if(keyE.key == 'ArrowLeft') { // left
